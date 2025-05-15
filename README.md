@@ -4,12 +4,6 @@
 
 ---
 
-## 🏆 GitHub Trophy
-
-![Trophy](https://github-profile-trophy.vercel.app/?username=thalessantos&theme=radical&margin-w=10&margin-h=15&row=1)
-
----
-
 ## 👨‍⚕️ About Me
 
 I'm a physician and computer science undergraduate exploring how software engineering and artificial intelligence can enhance radiological practice. I focus on experimenting with tools and frameworks that enable:
