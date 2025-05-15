@@ -22,7 +22,7 @@ I'm a physician and computer science undergraduate exploring how software engine
 **Infra / DevOps**: Docker · Proxmox · QNAP (& other open source NAS) · Tailscale · Git  
 **AI/ML**: PyTorch · Transformers · diffusers · scikit-learn  
 **Medical Imaging**:  
-• Viewers: CornerstoneJS · OHIF Viewer · OsiriX/Horos
+• Open Source Viewers & Plugins: CornerstoneJS · OHIF · 3D Slicer · OsiriX/Horos  
 • DICOM Tools: Orthanc · pydicom · GDCM
 
 ---
