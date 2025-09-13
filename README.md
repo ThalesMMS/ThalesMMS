@@ -21,11 +21,11 @@ My work is focused on clinical radiology, artificial intelligence and modern sof
 
 ## Tech Stack
 
-**Languages**: Python · Swift · C++ · Java · JavaScript · TypeScript
-**Frameworks**: Django · SwiftUI · Metal · Node.js  
-**Infra / DevOps**: Docker · Proxmox · QNAP (& other open source NAS) · Tailscale · Git  
-**AI/ML**: PyTorch · Transformers · scikit-learn · Ollama
-**Medical Imaging**: DcmSwift · DCMTK · GDCM · OsiriX/Horos · Slicer · Orthanc
+- **Languages**: Python · Swift · C++ · Java · JavaScript · TypeScript
+- **Frameworks**: Django · SwiftUI · Metal · Node.js  
+- **Infra / DevOps**: Docker · Proxmox · QNAP (& other open source NAS) · Tailscale · Git  
+- **AI/ML**: PyTorch · Transformers · scikit-learn · Ollama
+- **Medical Imaging**: DcmSwift · DCMTK · GDCM · OsiriX/Horos · Slicer · Orthanc
 
 ---
 
