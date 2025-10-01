@@ -21,11 +21,11 @@ My work is focused on clinical radiology, artificial intelligence and modern sof
 
 ## Tech Stack
 
-- **Languages**: Python · Swift · C++ · Java · JavaScript · TypeScript
-- **Frameworks**: Django · SwiftUI · Metal · Node.js  
+- **Languages**: Python · Swift · C++ · Java · JavaScript · Dart
+- **Frameworks**: Django · SwiftUI · Metal/SceneKit · Flutter
 - **Infra / DevOps**: Docker · Proxmox · QNAP (& other open source NAS) · Tailscale · Git  
 - **AI/ML**: PyTorch · Transformers · scikit-learn · Ollama
-- **Medical Imaging**: DcmSwift · DCMTK · GDCM · OsiriX/Horos · Slicer · Orthanc
+- **Medical Imaging**: DcmSwift · DCMTK · GDCM · OsiriX/Horos · 3D Slicer · Orthanc
 
 ---
 
@@ -45,7 +45,8 @@ dependencies: [
     .package(url: "https://github.com/ThalesMMS/Swift-DICOM-Decoder.git", branch: "main")
 ]
 ```
-- **Isis DICOM Viewer (iOS)** – Mobile DICOM viewer
+- **Isis DICOM Viewer (iOS)** – mobile DICOM viewer with 2D/MPR/Volumetric rendering and PACS integration.
+- **JFlutter** — modern Flutter port of the classic JFLAP tool for automata & formal language theory. Mobile‑first, touch‑optimised UI for creating and simulating automata/CFGs.
 - **WALL-ET** - Mobile Bitcoin wallet
 - **Orthanc for QNAP** – Custom `.qpkg` packaging
 - **LLMs + Radiology** – Fine-tuning and RAG pipelines with anonymized radiology data 
