@@ -47,6 +47,7 @@ dependencies: [
 ```
 - **Isis DICOM Viewer (iOS)** – mobile DICOM viewer with 2D/MPR/Volumetric rendering and PACS integration.
 - **JFlutter** — modern Flutter port of the classic JFLAP tool for automata & formal language theory. Mobile‑first, touch‑optimised UI for creating and simulating automata/CFGs.
+- **TotalSegmentator Horos Plugin** - bringing the modern Total Segmentator to the open source Horos Project!
 - **WALL-ET** - Mobile Bitcoin wallet
 - **Orthanc for QNAP** – Custom `.qpkg` packaging
 - **LLMs + Radiology** – Fine-tuning and RAG pipelines with anonymized radiology data 
