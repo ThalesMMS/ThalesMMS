@@ -13,19 +13,19 @@ I'm a physician and computer science undergraduate exploring how software engine
 My work is focused on clinical radiology, artificial intelligence and modern software engineering to create practical, scalable solutions:
 
 - DICOM visualization and PACS integration
-- Generative AI (LLMs, local inference, RAGs/finetuning)
-- Lightweight infrastructure for healthcare systems (DICOM viewers, NAS, containers, Proxmox)
+- Generative AI (LLMs/Agents, local inference, RAGs/finetuning)
+- Infrastructure for healthcare systems (DICOM viewers, NAS, containers, Proxmox)
 - Full-stack development tailored to clinical workflows
 
 ---
 
 ## Tech Stack
 
-- **Languages**: Python · Swift · C++ · Java · JavaScript · Dart
+- **Languages**: Python · Swift · C++ · Dart · JavaScript · Java
 - **Frameworks**: Django · SwiftUI · Metal/SceneKit · Flutter
 - **Infra / DevOps**: Docker · Proxmox · QNAP (& other open source NAS) · Tailscale · Git  
 - **AI/ML**: PyTorch · Transformers · scikit-learn · Ollama
-- **Medical Imaging**: DcmSwift · DCMTK · GDCM · OsiriX/Horos · 3D Slicer · Orthanc
+- **Medical Imaging**: DCMTK · GDCM · VTK · ITK · DcmSwift · OsiriX/Horos · 3D Slicer · Orthanc
 
 ---
 
@@ -65,10 +65,10 @@ dependencies: [
 
 ## Interests
 
-- DICOM Viewers
-- DICOM servers in low-resource environments
+- DICOM Viewers and local-first imaging platforms
+- AI applications in medicine
+- PACS servers in low-resource environments
 - AI-assisted radiological decision-making
-- Local-first imaging platforms
 
 ---
 
