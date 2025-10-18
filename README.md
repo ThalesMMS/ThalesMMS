@@ -76,3 +76,9 @@ dependencies: [
 
 - E-mail: thalesmmsradio@gmail.com  
 - [LinkedIn](https://www.linkedin.com/in/thales-matheus-m-santos-974314287/)
+
+---
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ThalesMMS&langs_count=10&theme=tokyonight&layout=compact" alt="AnhellO :: Top Langs" />
+
+---
