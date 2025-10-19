@@ -79,9 +79,10 @@ dependencies: [
 
 ---
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ThalesMMS&langs_count=10&theme=tokyonight&layout=compact" alt="AnhellO :: Top Langs" />
-
-<img width="300" src="https://github-readme-stats.vercel.app/api?username=ThalesMMS&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515">
+<div align="center" style="display:flex; justify-content:center; gap:10px;">
+  <img style="height:150px;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ThalesMMS&layout=compact&theme=tokyonight" />
+  <img style="height:150px;" src="https://github-readme-stats.vercel.app/api/?username=ThalesMMS&show_icons=true&hide=issues&theme=tokyonight" />
+</div>
 
 ---
 
