@@ -9,12 +9,12 @@
 
 ## About Me
 
-I'm a physician and computer science undergraduate exploring how software engineering and artificial intelligence can enhance radiological practice.
-My work is focused on clinical radiology, artificial intelligence and modern software engineering to create practical, scalable solutions:
+I'm a physician and computer science undergraduate exploring how software engineering and artificial intelligence can advance radiological practice.
+My work focuses on clinical radiology, artificial intelligence, and modern software engineering to create practical, scalable solutions:
 
-- DICOM visualization and PACS integration
-- Generative AI (LLMs/Agents, local inference, RAGs/finetuning)
-- Infrastructure for healthcare systems (DICOM viewers, NAS, containers, Proxmox)
+- DICOM viewers with 2D/MPR/volumetric rendering and DIMSE/DICOMweb integration
+- Generative AI in medicine (LLMs/Agents, local inference, RAG/finetuning)
+- Infrastructure for healthcare systems (PACS, NAS, containers, Proxmox)
 - Full-stack development tailored to clinical workflows
 
 ---
@@ -22,10 +22,21 @@ My work is focused on clinical radiology, artificial intelligence and modern sof
 ## Tech Stack
 
 - **Languages**: Python · Swift · C++ · Dart · JavaScript · Java
-- **Frameworks**: Django · SwiftUI · Metal/SceneKit · Flutter
-- **Infra / DevOps**: Docker · Proxmox · QNAP (& other open source NAS) · Tailscale · Git  
-- **AI/ML**: PyTorch · Transformers · scikit-learn · Ollama
+- **Frameworks**: Django · SwiftUI · Metal · Flutter
+- **AI/ML**: PyTorch · TensorFlow · scikit-learn
 - **Medical Imaging**: DCMTK · GDCM · VTK · ITK · DcmSwift · OsiriX/Horos · 3D Slicer · Orthanc
+- **Infra / DevOps**: Docker · Proxmox · QNAP (& other open source NAS) · Tailscale · Git  
+- **Setup**: macOS + Windows, Linux VMs, NAS with Dockerized services
+- **Experimenting with**: CUA (Computer Use Agents), Ollama, ComfyUI
+
+---
+
+## Interests
+
+- Local-first imaging platforms and DICOM viewers
+- AI applications in medicine
+- PACS servers in low-resource environments
+- AI-assisted radiological decision-making
 
 ---
 
@@ -35,50 +46,27 @@ My work is focused on clinical radiology, artificial intelligence and modern sof
 ```swift
 // Package.swift
 dependencies: [
-    .package(url: "https://github.com/ThalesMMS/DcmSwift.git", branch: "main")
+    .package(url: "https://github.com/ThalesMMS/DcmSwift.git", from: "0.1.0"),
 ]
 ```
-- **Swift-DICOM-Decoder** — Pixel decode & windowing pipeline → [https://github.com/ThalesMMS/Swift-DICOM-Decoder](https://github.com/ThalesMMS/Swift-DICOM-Decoder)
+- **DICOM-Decoder** — Pixel decode & windowing pipeline → [https://github.com/ThalesMMS/DICOM-Decoder](https://github.com/ThalesMMS/DICOM-Decoder)
 ```swift
 // Package.swift
 dependencies: [
-    .package(url: "https://github.com/ThalesMMS/Swift-DICOM-Decoder.git", branch: "main")
+    .package(url: "https://github.com/ThalesMMS/DICOM-Decoder.git", from: "1.0.0")
 ]
 ```
-- **Isis DICOM Viewer (iOS)** – mobile DICOM viewer with 2D/MPR/Volumetric rendering and PACS integration.
+- **Isis DICOM Viewer (iOS/Windows)** – DICOM viewer with 2D/MPR/Volumetric rendering and PACS integration (closed source).
 - **JFlutter** — modern Flutter port of the classic JFLAP tool for automata & formal language theory. Mobile‑first, touch‑optimised UI for creating and simulating automata/CFGs.
-- **TotalSegmentator Horos Plugin** - bringing the modern Total Segmentator to the open source Horos Project!
-- **WALL-ET** - Mobile Bitcoin wallet
+- **TotalSegmentator Horos Plugin** - bringing the modern TotalSegmentator to the open source Horos Project!
+- **WALL-ET** - Mobile Bitcoin wallet (WIP)
 - **Orthanc for QNAP** – Custom `.qpkg` packaging
-- **LLMs + Radiology** – Fine-tuning and RAG pipelines with anonymized radiology data 
+- **LLMs + Radiology** – Fine-tuning and RAG pipelines with anonymized radiology data
+> Looking for collaborators
 
 ---
 
-## Dev Tools & Setup
-
-- macOS + Windows (development/testing)
-- NAS: QNAP QTS with Dockerized services
-- Preferred stack: Django + Python APIs, Swift/Flutter
-- Experimenting with LM Studio, Ollama, ComfyUI
-
----
-
-## Interests
-
-- DICOM Viewers and local-first imaging platforms
-- AI applications in medicine
-- PACS servers in low-resource environments
-- AI-assisted radiological decision-making
-
----
-
-## Contact
-
-- E-mail: thalesmmsradio@gmail.com  
-- [LinkedIn](https://www.linkedin.com/in/thales-matheus-m-santos-974314287/)
-
----
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ThalesMMS&langs_count=10&theme=tokyonight&layout=compact" alt="AnhellO :: Top Langs" />
+<div align="left" style="display:flex; justify-content:left; gap:10px;">
+  <img style="height:150px;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ThalesMMS&layout=compact&theme=tokyonight" alt="Top languages" /> </div>
 
 ---
