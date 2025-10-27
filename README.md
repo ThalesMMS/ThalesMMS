@@ -44,21 +44,21 @@ My work focuses on clinical radiology, artificial intelligence, and modern softw
 
 [DcmSwift](https://github.com/ThalesMMS/DcmSwift) — Swift-native DICOM core (DIMSE + DICOMweb)
 
-[DICOM-Decoder](https://github.com/ThalesMMS/DICOM-Decoder) — Pixel decode & windowing pipeline
+[DICOM-Decoder](https://github.com/ThalesMMS/DICOM-Decoder) — DICOM Pixel decode & windowing pipeline
 
 [MTK — Metal Toolkit](https://github.com/ThalesMMS/MTK) — Modern Swift/Metal toolkit for high-fidelity medical imaging (volume rendering, SceneKit integration, SwiftUI components)
 
-Isis DICOM Viewer (iOS/iPadOS/macOS/Windows) – DICOM viewer with 2D/MPR/Volumetric rendering and PACS integration (closed source)
+**Isis DICOM Viewer** (iOS/iPadOS/macOS/Windows) – DICOM viewer with 2D/MPR/Volumetric rendering and PACS integration (closed source)
 
-[JFlutter](https://github.com/ThalesMMS/JFlutter) — Modern Flutter port of the classic JFLAP tool for automata & formal language theory
+[JFlutter](https://github.com/ThalesMMS/JFlutter) — Cross-platform interactive educational tool to design and simulate automata, regular expressions, and formal languages. Mobile‑first, touch‑optimised UI.
 
-[TotalSegmentator Horos Plugin](https://github.com/ThalesMMS/TotalSegmentator-Horos-Plugin) — Bringing the modern TotalSegmentator to the open-source Horos Project
+[TotalSegmentator Horos Plugin](https://github.com/ThalesMMS/TotalSegmentator-Horos-Plugin) — Bringing the modern TotalSegmentator to the open-source Horos Project!
 
 [WALL-ET](https://github.com/ThalesMMS/WALL-ET) — Mobile Bitcoin wallet (WIP)
 
-Orthanc for QNAP – Custom `.qpkg` packaging
+**Orthanc for QNAP** – Custom `.qpkg` packaging
 
-LLMs + Radiology – Fine-tuning and RAG pipelines with anonymized radiology data
+**LLMs + Radiology** – Fine-tuning and RAG pipelines with anonymized radiology data
 
 ---
 
