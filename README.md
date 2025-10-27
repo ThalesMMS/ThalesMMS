@@ -43,20 +43,9 @@ My work focuses on clinical radiology, artificial intelligence, and modern softw
 ## Current Projects
 
 - **DcmSwift** — Swift-native DICOM core (DIMSE + DICOMweb) → [https://github.com/ThalesMMS/DcmSwift](https://github.com/ThalesMMS/DcmSwift)
-```swift
-// Package.swift
-dependencies: [
-    .package(url: "https://github.com/ThalesMMS/DcmSwift.git", from: "0.1.0"),
-]
-```
 - **DICOM-Decoder** — Pixel decode & windowing pipeline → [https://github.com/ThalesMMS/DICOM-Decoder](https://github.com/ThalesMMS/DICOM-Decoder)
-```swift
-// Package.swift
-dependencies: [
-    .package(url: "https://github.com/ThalesMMS/DICOM-Decoder.git", from: "1.0.0")
-]
-```
-- **Isis DICOM Viewer (iOS/Windows)** – DICOM viewer with 2D/MPR/Volumetric rendering and PACS integration (closed source).
+- **MTK — Metal Toolkit** — Modern Swift/Metal toolkit for high-fidelity medical imaging (volume rendering, SceneKit integration, SwiftUI components).→ [https://github.com/ThalesMMS/MTK](https://github.com/ThalesMMS/MTK)
+- **Isis DICOM Viewer (iOS/iPadOS/macOS/Windows)** – DICOM viewer with 2D/MPR/Volumetric rendering and PACS integration (closed source).
 - **JFlutter** — modern Flutter port of the classic JFLAP tool for automata & formal language theory. Mobile‑first, touch‑optimised UI for creating and simulating automata/CFGs.
 - **TotalSegmentator Horos Plugin** - bringing the modern TotalSegmentator to the open source Horos Project!
 - **WALL-ET** - Mobile Bitcoin wallet (WIP)
