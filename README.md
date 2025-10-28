@@ -63,6 +63,6 @@ My work focuses on clinical radiology, artificial intelligence, and modern softw
 ---
 
 <div align="left" style="display:flex; justify-content:left; gap:10px;">
-  <img style="height:150px;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ThalesMMS&layout=compact&theme=tokyonight&card_width=300" alt="Top languages" /> </div>
+  <img style="height:150px;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ThalesMMS&langs_count=4&layout=compact&theme=tokyonight&card_width=320" alt="Top languages" /> </div>
 
 ---
