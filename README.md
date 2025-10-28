@@ -50,7 +50,7 @@ My work focuses on clinical radiology, artificial intelligence, and modern softw
 
 **Isis DICOM Viewer** (iOS/iPadOS/macOS): Native Swift DICOM viewer with 2D/MPR/Volumetric rendering and PACS integration (closed source)
 
-[Isis DICOM Viewer](https://github.com/ThalesMMS/Isis-for-Windows) (Windows): Lightweight DICOM viewer with VTK integration
+[**Isis DICOM Viewer**](https://github.com/ThalesMMS/Isis-for-Windows) (Windows): Lightweight DICOM viewer with VTK integration
 
 [**JFlutter**](https://github.com/ThalesMMS/JFlutter): Cross-platform interactive educational tool to design and simulate automata, regular expressions, and formal languages. Mobile‑first, touch‑optimised UI.
 
