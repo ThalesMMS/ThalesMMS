@@ -75,6 +75,6 @@ I'm a physician and computer science undergraduate exploring how software engine
 ---
 
 <div align="left" style="display:flex; justify-content:left; gap:10px;">
-  <img style="height:150px;" src="https://thales-mms.vercel.app/api/top-langs?username=ThalesMMS&langs_count=8&layout=compact&theme=tokyonight&card_width=230" alt="Top languages" /> </div>
+  <img style="height:150px;" src="https://thales-mms.vercel.app/api/top-langs?username=ThalesMMS&langs_count=8&layout=compact&theme=tokyonight&card_width=231" alt="Top languages" /> </div>
 
 ---
