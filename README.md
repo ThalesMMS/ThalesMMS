@@ -22,9 +22,9 @@ I'm a physician and computer science undergraduate exploring how software engine
 ## Tech Stack
 
 - **Languages**: Python · Swift · C++ · Dart · JavaScript · Java
-- **Frameworks**: Django · SwiftUI · Metal · Flutter
+- **Frameworks**: SwiftUI · Django · Flutter · Metal
 - **AI/ML**: PyTorch · TensorFlow · scikit-learn
-- **Medical Imaging**: DCMTK · GDCM · VTK · ITK · DcmSwift · OsiriX/Horos · 3D Slicer · Orthanc
+- **Medical Imaging**: GDCM · DCMTK · VTK · ITK · DcmSwift · OsiriX/Horos · 3D Slicer · Orthanc
 - **Infra / DevOps**: Docker · Proxmox · QNAP (& other open source NAS) · Tailscale · Git  
 - **Setup**: macOS + Windows, Linux VMs, NAS with Dockerized services
 - **Experimenting with**: CUA (Computer Use Agents), Ollama, ComfyUI
@@ -44,19 +44,19 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 **Isis DICOM Viewer** (Windows, macOS, iOS, iPadOS): built natively in Swift for Apple platforms and developed in Qt/C++ for Windows, providing 2D visualization, MPR, volumetric rendering, PACS/DIMSE support, and ROI measurement tools (closed source).
 
-[**MTK - Metal Toolkit**](https://github.com/ThalesMMS/MTK): Modern Swift/Metal toolkit for high-fidelity medical imaging (volume rendering, SceneKit integration, SwiftUI components).
+[**JFlutter**](https://github.com/ThalesMMS/JFlutter): Cross-platform interactive educational tool to design and simulate automata, regular expressions, formal languages and Turing machines. Mobile‑first, touch‑optimised UI.
 
 [**Dicom-Tools**](https://github.com/ThalesMMS/Dicom-Tools): Test the major DICOM libraries across C++, Python, Rust, Java, C#, and Javascript using a single command interface, shared samples, and interchangeable backends.
 
-[**JFlutter**](https://github.com/ThalesMMS/JFlutter): Cross-platform interactive educational tool to design and simulate automata, regular expressions, formal languages and Turing machines. Mobile‑first, touch‑optimised UI.
+[**MTK - Metal Toolkit**](https://github.com/ThalesMMS/MTK): Modern Swift/Metal toolkit for high-fidelity medical imaging (volume rendering, SceneKit integration, SwiftUI components).
 
 ## Other Projects
 
-[**DICOM-Decoder**](https://github.com/ThalesMMS/DICOM-Decoder): DICOM Pixel decode & windowing pipeline
+[**DICOM-Decoder**](https://github.com/ThalesMMS/DICOM-Decoder): DICOM Pixel decode & windowing pipeline.
 
 [**Radiology-Templates**](https://github.com/ThalesMMS/Radiology-Templates): Radiology report templates with Rust/Python tools to convert across DOCX, Markdown, and TXT.
 
-[**DcmSwift**](https://github.com/ThalesMMS/DcmSwift): Swift-native DICOM core (DIMSE + DICOMweb)
+[**DcmSwift**](https://github.com/ThalesMMS/DcmSwift): Swift-native DICOM core (DIMSE + DICOMweb).
 
 [**TotalSegmentator Horos Plugin**](https://github.com/ThalesMMS/TotalSegmentator-Horos-Plugin): Bringing the modern TotalSegmentator to the open-source Horos Project!
 
@@ -64,7 +64,13 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 [**Code-Scanner**](https://github.com/ThalesMMS/Code-Scanner-py): Python/Rust/Shell tools to generate clean text snapshots of your source code tree with one command. Perfect for reviews, audits, and AI prompts.
 
-[**mammography-pipelines**](https://github.com/ThalesMMS/mammography-pipelines-py): Mammography experimentation repo delivering reproducible preprocessing, feature engineering, and modeling steps. Run ResNet50 or EfficientNet B0 extractors for full training loops and density classifiers.
+[**mammography-pipelines-py**](https://github.com/ThalesMMS/mammography-pipelines-py): Mammography experimentation repo delivering reproducible preprocessing, feature engineering, and modeling steps. Run ResNet50 or EfficientNet B0 extractors for full training loops and density classifiers.
+
+[**brain‑mri‑pipelines‑py**](https://github.com/ThalesMMS/brain-mri-pipelines-py): Experimental framework for Alzheimer’s detection from brain MRI. Features multi‑stream deep learning backbones fused with clinical data, reinforcement‑learning hyperparameter refinement, a Tkinter GUI for slice navigation/segmentation and CLI scripts for reproducible experiments.
+
+[**Lung‑Nodule‑app**](https://github.com/ThalesMMS/Lung-Nodule-app): Guideline calculators for Fleischner 2017 and ACR Lung‑RADS v2022. Educational use only.
+
+[**Rust‑Neural‑Networks**](https://github.com/ThalesMMS/Rust-Neural-Networks) and [**Swift‑Neural‑Networks**](https://github.com/ThalesMMS/Swift-Neural-Networks): Small neural network models in Rust and Swift for MNIST digit classification and XOR tasks; includes MLP, CNN and single‑head self‑attention architectures, along with Python utilities for visualization and digit recognition.
 
 [**WALL-ET**](https://github.com/ThalesMMS/WALL-ET): Mobile Bitcoin wallet (WIP)
 
@@ -75,6 +81,6 @@ I'm a physician and computer science undergraduate exploring how software engine
 ---
 
 <div align="left" style="display:flex; justify-content:left; gap:10px;">
-  <img style="height:150px;" src="https://thales-mms.vercel.app/api/top-langs?username=ThalesMMS&langs_count=8&layout=compact&theme=tokyonight&card_width=233" alt="Top languages" /> </div>
+  <img style="height:150px;" src="https://thales-mms.vercel.app/api/top-langs?username=ThalesMMS&langs_count=8&layout=compact&theme=tokyonight&card_width=234" alt="Top languages" /> </div>
 
 ---
