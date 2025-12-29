@@ -64,23 +64,33 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 [**Code-Scanner**](https://github.com/ThalesMMS/Code-Scanner-py): Python/Rust/Shell tools to generate clean text snapshots of your source code tree with one command. Perfect for reviews, audits, and AI prompts.
 
+[**Orthanc‑PACS**](https://github.com/ThalesMMS/Orthanc-PACS): Turn‑key Docker stack for medical imaging. Provides an Orthanc server with SQLite database, the Orthanc Explorer 2 UI, a DICOMweb API and an embedded OHIF viewer. Ships with Python, GDCM and Housekeeper plugins and defaults to enabling storage compression and allowing instance overwrite.
+
 [**mammography-pipelines-py**](https://github.com/ThalesMMS/mammography-pipelines-py): Mammography experimentation repo delivering reproducible preprocessing, feature engineering, and modeling steps. Run ResNet50 or EfficientNet B0 extractors for full training loops and density classifiers.
 
 [**brain‑mri‑pipelines‑py**](https://github.com/ThalesMMS/brain-mri-pipelines-py): Experimental framework for Alzheimer’s detection from brain MRI. Features multi‑stream deep learning backbones fused with clinical data, reinforcement‑learning hyperparameter refinement, a Tkinter GUI for slice navigation/segmentation and CLI scripts for reproducible experiments.
 
 [**Lung‑Nodule‑app**](https://github.com/ThalesMMS/Lung-Nodule-app): Guideline calculators for Fleischner 2017 and ACR Lung‑RADS v2022. Educational use only.
 
-[**Rust‑Neural‑Networks**](https://github.com/ThalesMMS/Rust-Neural-Networks) and [**Swift‑Neural‑Networks**](https://github.com/ThalesMMS/Swift-Neural-Networks): Small neural network models in Rust and Swift for MNIST digit classification and XOR tasks; includes MLP, CNN and single‑head self‑attention architectures, along with Python utilities for visualization and digit recognition.
+[**Rust‑Neural‑Networks**](https://github.com/ThalesMMS/Rust-Neural-Networks) and [**Swift‑Neural‑Networks**](https://github.com/ThalesMMS/Swift-Neural-Networks): Small neural network models in Rust and Swift for MNIST digit classification and XOR tasks. Includes MLP, CNN and single‑head self‑attention architectures, along with Python utilities for visualization and digit recognition.
 
-[**WALL-ET**](https://github.com/ThalesMMS/WALL-ET): Mobile Bitcoin wallet (WIP)
+[**reports‑to‑llm**](https://github.com/ThalesMMS/reports-to-llm): Rust tool that converts DOCX/RTF medical reports into clean, UTF‑8‑encoded text optimized for LLM training. Removes RTF commands and XML tags, detects section headings and manages output splitting.
+
+[**Horos‑Backup‑Script**](https://github.com/ThalesMMS/Horos-Backup-Script): Python script and macOS LaunchAgent to automate bulk backups of CT/MR studies from Horos.
+
+[**OsiriX‑Backup‑Plugin**](https://github.com/ThalesMMS/OsiriX-Backup-Plugin): Swift plugin for OsiriX/Horos that automates sending DICOM studies to remote PACS.
+
+[**WALL-ET**](https://github.com/ThalesMMS/WALL-ET): Mobile Bitcoin wallet (WIP).
+
+[**jff‑to‑tex‑Turing‑Machine‑Diagram‑Converter**](https://github.com/ThalesMMS/jff-to-tex-Turing-Machine-Diagram-Converter): Python utility that converts JFLAP Turing machine diagrams into LaTeX/TikZ diagrams.
+
+[**LaTeX‑Paper‑Template**](https://github.com/ThalesMMS/LaTeX-Paper-Template): Ready‑to‑use LaTeX template for SBC articles/monographs with modular chapters, placeholder content and centralized metadata.
 
 **Orthanc for QNAP**: Custom `.qpkg` packaging
-
-**LLMs + Radiology**: Fine-tuning and RAG pipelines with anonymized radiology data
 
 ---
 
 <div align="left" style="display:flex; justify-content:left; gap:10px;">
-  <img style="height:150px;" src="https://thales-mms.vercel.app/api/top-langs?username=ThalesMMS&langs_count=8&layout=compact&theme=tokyonight&card_width=234" alt="Top languages" /> </div>
+  <img style="height:150px;" src="https://thales-mms.vercel.app/api/top-langs?username=ThalesMMS&langs_count=8&layout=compact&theme=tokyonight&card_width=235" alt="Top languages" /> </div>
 
 ---
