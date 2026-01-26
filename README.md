@@ -36,7 +36,7 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 [**Dicom-Tools**](https://github.com/ThalesMMS/Dicom-Tools): Single UI to test major DICOM libraries across multiple languages (DCMTK, GDCM, ITK/VTK, dicom-rs, fo-dicom, dcm4che, Cornerstone3D, pydicom/pynetdicom, etc.).
 
-[**PACS-Natural-Language-Query**](https://github.com/ThalesMMS/PACS-Natural-Language-Query): toolkit for querying PACS studies using natural language.
+**PACS-Natural-Language-Query**: toolkit for querying PACS studies using natural language (still closed source).
 
 [**MTK - Metal Toolkit**](https://github.com/ThalesMMS/MTK): Modern Swift/Metal toolkit for high-fidelity medical imaging (volume rendering, MPR, SceneKit integration, SwiftUI components).
 
@@ -56,7 +56,7 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 [**Orthanc‑PACS**](https://github.com/ThalesMMS/Orthanc-PACS): Turn‑key Orthanc Docker stack with SQLite, Orthanc Explorer 2, DICOMweb, OHIF viewer, key plugins and sensible defaults.
 
-[**mammography-pipelines-py**](https://github.com/ThalesMMS/mammography-pipelines-py): Mammography experimentation repo delivering reproducible preprocessing, feature engineering, and modeling steps. Run ResNet50 or EfficientNet B0 extractors for full training loops and density classifiers.
+**mammography-pipelines-py**: Mammography experimentation repo delivering reproducible preprocessing, feature engineering, and modeling steps. Run ResNet50 or EfficientNet B0 extractors for full training loops and density classifiers (still closed source).
 
 [**brain‑mri‑pipelines‑py**](https://github.com/ThalesMMS/brain-mri-pipelines-py): Experimental Alzheimer’s detection framework using MRI + clinical fusion (research playground).
 
@@ -92,6 +92,6 @@ I'm a physician and computer science undergraduate exploring how software engine
 ---
 
 <div align="left" style="display:flex; justify-content:left; gap:10px;">
-  <img style="height:150px;" src="https://thales-mms.vercel.app/api/top-langs?username=ThalesMMS&langs_count=10&layout=compact&theme=tokyonight&card_width=276" alt="Top languages" /> </div>
+  <img style="height:150px;" src="https://thales-mms.vercel.app/api/top-langs?username=ThalesMMS&langs_count=10&layout=compact&theme=tokyonight&card_width=278" alt="Top languages" /> </div>
 
 ---
