@@ -1,6 +1,6 @@
 # Thales Matheus M. Santos
 
-**Physician–Radiologist · Computer Science (B.Sc. in progress)**
+**Physician · Radiologist · Computer Science undergraduate**
 
 [![Email](https://img.shields.io/badge/Email-thalesmmsradio%40gmail.com-red?logo=gmail&logoColor=white)](mailto:thalesmmsradio@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Thales%20Matheus-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thales-matheus-m-santos-974314287/)
@@ -92,6 +92,6 @@ I'm a physician and computer science undergraduate exploring how software engine
 ---
 
 <div align="left" style="display:flex; justify-content:left; gap:10px;">
-  <img style="height:150px;" src="https://thales-mms.vercel.app/api/top-langs?username=ThalesMMS&langs_count=10&layout=compact&theme=tokyonight&card_width=288" alt="Top languages" /> </div>
+  <img style="height:150px;" src="https://thales-mms.vercel.app/api/top-langs?username=ThalesMMS&langs_count=10&layout=compact&theme=tokyonight&card_width=309" alt="Top languages" /> </div>
 
 ---
