@@ -30,15 +30,19 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 ## Current Projects
 
-**Isis DICOM Viewer** (Windows, macOS, iOS, iPadOS): built natively in Swift for Apple platforms and developed in Qt/C++ for Windows, providing 2D visualization, MPR, volumetric rendering, PACS/DIMSE support, and ROI measurement tools (closed source).
+**Isis DICOM Viewer** (Windows, macOS, iOS, iPadOS): built natively in Swift for Apple platforms and developed in Qt/C++ for Windows, providing 2D visualization, MPR, volumetric rendering, PACS/DIMSE support, and ROI measurement tools.
 
 [**JFlutter**](https://github.com/ThalesMMS/JFlutter): Cross-platform interactive educational tool to design and simulate automata, regular expressions, formal languages and Turing machines. Mobile‑first, touch‑optimised UI.
 
 [**Dicom-Tools**](https://github.com/ThalesMMS/Dicom-Tools): Single UI to test major DICOM libraries across multiple languages (DCMTK, GDCM, ITK/VTK, dicom-rs, fo-dicom, dcm4che, Cornerstone3D, pydicom/pynetdicom, etc.).
 
-**PACS-Natural-Language-Query**: toolkit for querying PACS studies using natural language (still closed source).
+**PACS-Natural-Language-Query**: toolkit for querying PACS studies using natural language.
 
 [**MTK - Metal Toolkit**](https://github.com/ThalesMMS/MTK): Modern Swift/Metal toolkit for high-fidelity medical imaging (volume rendering, MPR, SceneKit integration, SwiftUI components).
+
+[**dicom-viewer-mcp-app**](https://github.com/ThalesMMS/dicom-viewer-mcp-app): Prototype MCP App that displays DICOM medical images directly within LLM chat interfaces.
+
+**BIONG (Biologically Inspired Organism, Not a Game)**: A biologically inspired organism simulator where modular cortical networks drive survival behavior.
 
 ## Other Projects
 
@@ -50,13 +54,15 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 [**TotalSegmentator Horos/Osirix Plugin**](https://github.com/ThalesMMS/TotalSegmentator-Horos-Plugin): Bringing the modern TotalSegmentator to the open-source Horos Project!
 
+**Second Brain**: AI-powered note-taking app using on-device models, with tool calling, voice input, and structured editing.
+
 [**GitHub-Replicant**](https://github.com/ThalesMMS/GitHub-Replicant-rs): fast async Rust CLI for bulk GitHub backups (clone/pull, sync by starred/followers/following).
 
 [**Code-Scanner**](https://github.com/ThalesMMS/Code-Scanner-py): generate clean “whole-repo” text snapshots for reviews, audits, and AI prompts. 
 
-[**Orthanc‑PACS**](https://github.com/ThalesMMS/Orthanc-PACS): Turn‑key Orthanc Docker stack with SQLite, Orthanc Explorer 2, DICOMweb, OHIF viewer, key plugins and sensible defaults.
+[**orthanc-tools**](https://github.com/ThalesMMS/orthanc-tools): Orthanc workflows for Docker and native Ubuntu, including remote sync, ZIP backups, and operational scripts.
 
-**mammography-pipelines-py**: Mammography experimentation repo delivering reproducible preprocessing, feature engineering, and modeling steps. Run ResNet50 or EfficientNet B0 extractors for full training loops and density classifiers (still closed source).
+[**mammography-pipelines-py**](https://github.com/ThalesMMS/mammography-pipelines-py): Mammography experimentation repo delivering reproducible preprocessing, feature engineering, nice UI and modeling steps. Run ResNet50, Vit-B/16 or EfficientNet B0 for full training loops and density classifiers.
 
 [**brain‑mri‑pipelines‑py**](https://github.com/ThalesMMS/brain-mri-pipelines-py): Experimental Alzheimer’s detection framework using MRI + clinical fusion (research playground).
 
@@ -76,6 +82,8 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 [**LaTeX‑Paper‑Template**](https://github.com/ThalesMMS/LaTeX-Paper-Template): Ready‑to‑use LaTeX template for SBC articles/monographs with modular chapters, placeholder content and centralized metadata.
 
+[**BTC-21M-Countdown**](https://thalesmms.github.io/BTC-21M-Countdown): A live Bitcoin supply countdown to the 21 Million milestone.
+
 **Orthanc for QNAP**: Custom `.qpkg` packaging
 
 ---
@@ -92,7 +100,7 @@ I'm a physician and computer science undergraduate exploring how software engine
 ---
 
 <div align="left" style="display:flex; justify-content:left; gap:10px;">
-  <img style="height:150px;" src="https://thales-mms.vercel.app/api/top-langs?username=ThalesMMS&langs_count=10&layout=compact&theme=tokyonight&card_width=315" alt="Top languages" />
+  <img style="height:150px;" src="https://thales-mms.vercel.app/api/top-langs?username=ThalesMMS&langs_count=10&layout=compact&theme=tokyonight&card_width=318" alt="Top languages" />
 </div>
 
 ---
