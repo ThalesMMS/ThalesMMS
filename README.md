@@ -62,7 +62,7 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 [**Orthanc‑PACS**](https://github.com/ThalesMMS/Orthanc-PACS): Turn‑key Orthanc Docker stack with SQLite, Orthanc Explorer 2, DICOMweb, OHIF viewer, key plugins and sensible defaults.
 
-[**mammography-pipelines-py**](https://github.com/ThalesMMS/mammography-pipelines-py): Mammography experimentation repo delivering reproducible preprocessing, feature engineering, and modeling steps. Run ResNet50 or EfficientNet B0 extractors for full training loops and density classifiers (still closed source).
+[**mammography-pipelines-py**](https://github.com/ThalesMMS/mammography-pipelines-py): Mammography experimentation repo delivering reproducible preprocessing, feature engineering, nice UI and modeling steps. Run ResNet50, Vit-B/16 or EfficientNet B0 for full training loops and density classifiers.
 
 [**brain‑mri‑pipelines‑py**](https://github.com/ThalesMMS/brain-mri-pipelines-py): Experimental Alzheimer’s detection framework using MRI + clinical fusion (research playground).
 
