@@ -60,7 +60,7 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 [**Code-Scanner**](https://github.com/ThalesMMS/Code-Scanner-py): generate clean “whole-repo” text snapshots for reviews, audits, and AI prompts. 
 
-[**Orthanc‑PACS**](https://github.com/ThalesMMS/Orthanc-PACS): Turn‑key Orthanc Docker stack with SQLite, Orthanc Explorer 2, DICOMweb, OHIF viewer, key plugins and sensible defaults.
+[**orthanc-tools**](https://github.com/ThalesMMS/orthanc-tools): Orthanc workflows for Docker and native Ubuntu, including remote sync, ZIP backups, and operational scripts.
 
 [**mammography-pipelines-py**](https://github.com/ThalesMMS/mammography-pipelines-py): Mammography experimentation repo delivering reproducible preprocessing, feature engineering, nice UI and modeling steps. Run ResNet50, Vit-B/16 or EfficientNet B0 for full training loops and density classifiers.
 
