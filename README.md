@@ -40,6 +40,8 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 [**MTK - Metal Toolkit**](https://github.com/ThalesMMS/MTK): Modern Swift/Metal toolkit for high-fidelity medical imaging (volume rendering, MPR, SceneKit integration, SwiftUI components).
 
+[**dicom-viewer-mcp-app**](https://github.com/ThalesMMS/dicom-viewer-mcp-app): Prototype MCP App that displays DICOM medical images directly within LLM chat interfaces.
+
 **BIONAGA (Biologically Inspired Organism, Not a Game)**: A biologically inspired organism simulator where modular cortical networks drive survival behavior.
 
 ## Other Projects
@@ -79,6 +81,8 @@ I'm a physician and computer science undergraduate exploring how software engine
 [**jff‑to‑tex‑Turing‑Machine‑Diagram‑Converter**](https://github.com/ThalesMMS/jff-to-tex-Turing-Machine-Diagram-Converter): Python utility that converts JFLAP Turing machine diagrams into LaTeX/TikZ diagrams.
 
 [**LaTeX‑Paper‑Template**](https://github.com/ThalesMMS/LaTeX-Paper-Template): Ready‑to‑use LaTeX template for SBC articles/monographs with modular chapters, placeholder content and centralized metadata.
+
+[**BTC-21M-Countdown**](https://thalesmms.github.io/BTC-21M-Countdown): A live Bitcoin supply countdown to the 21 Million milestone.
 
 **Orthanc for QNAP**: Custom `.qpkg` packaging
 
