@@ -42,7 +42,7 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 [**dicom-viewer-mcp-app**](https://github.com/ThalesMMS/dicom-viewer-mcp-app): Prototype MCP App that displays DICOM medical images directly within LLM chat interfaces.
 
-**BIONAGA (Biologically Inspired Organism, Not a Game)**: A biologically inspired organism simulator where modular cortical networks drive survival behavior.
+**BIONG (Biologically Inspired Organism, Not a Game)**: A biologically inspired organism simulator where modular cortical networks drive survival behavior.
 
 ## Other Projects
 
