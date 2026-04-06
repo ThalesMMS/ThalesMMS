@@ -40,7 +40,7 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 [**MTK - Metal Toolkit**](https://github.com/ThalesMMS/MTK): Modern Swift/Metal toolkit for high-fidelity medical imaging (volume rendering, MPR, SceneKit integration, SwiftUI components).
 
-**BIONAGA - Biologically Inspired Organism Not a Game**: A biologically inspired organism simulator where modular cortical networks drive survival behavior.
+**BIONAGA (Biologically Inspired Organism, Not a Game)**: A biologically inspired organism simulator where modular cortical networks drive survival behavior.
 
 ## Other Projects
 
