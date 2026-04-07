@@ -42,7 +42,7 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 [**dicom-viewer-mcp-app**](https://github.com/ThalesMMS/dicom-viewer-mcp-app): Prototype MCP App that displays DICOM medical images directly within LLM chat interfaces.
 
-**BIONG (Biologically Inspired Organism, Not a Game)**: A biologically inspired organism simulator where modular cortical networks drive survival behavior.
+[**BIONG (Biologically Inspired Organism, Not a Game)**](https://github.com/ThalesMMS/BIONG): A biologically inspired organism simulator where modular cortical networks drive survival behavior.
 
 ## Other Projects
 
@@ -54,7 +54,7 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 [**TotalSegmentator Horos/Osirix Plugin**](https://github.com/ThalesMMS/TotalSegmentator-Horos-Plugin): Bringing the modern TotalSegmentator to the open-source Horos Project!
 
-**Second Brain**: AI-powered note-taking app using on-device models, with tool calling, voice input, and structured editing.
+[**Second Brain**](https://github.com/ThalesMMS/Second-Brain-app): AI-powered note-taking app using on-device models, with tool calling, voice input, and structured editing.
 
 [**GitHub-Replicant**](https://github.com/ThalesMMS/GitHub-Replicant-rs): fast async Rust CLI for bulk GitHub backups (clone/pull, sync by starred/followers/following).
 
