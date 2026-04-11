@@ -48,6 +48,8 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 [**DICOM-Decoder**](https://github.com/ThalesMMS/DICOM-Decoder): Swift DICOM pixel decode and window/level pipeline for uncompressed images.
 
+[**MacPGP-app**](https://github.com/ThalesMMS/MacPGP-app): macOS OpenPGP client with key management, signing/encryption workflows, Keychain integration, and Finder extension support.
+
 [**Radiology-Templates**](https://github.com/ThalesMMS/Radiology-Templates): Radiology report templates and Rust/Python tools to convert across DOCX, Markdown, and TXT.
 
 [**DcmSwift**](https://github.com/ThalesMMS/DcmSwift): Swift-native DICOM core (DIMSE + DICOMweb).
@@ -58,7 +60,7 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 [**GitHub-Replicant**](https://github.com/ThalesMMS/GitHub-Replicant-rs): fast async Rust CLI for bulk GitHub backups (clone/pull, sync by starred/followers/following).
 
-[**Code-Scanner**](https://github.com/ThalesMMS/Code-Scanner-py): generate clean “whole-repo” text snapshots for reviews, audits, and AI prompts. 
+[**Code-Scanner**](https://github.com/ThalesMMS/Code-Scanner): generate clean “whole-repo” text snapshots for reviews, audits, and AI prompts. 
 
 [**orthanc-tools**](https://github.com/ThalesMMS/orthanc-tools): Orthanc workflows for Docker and native Ubuntu, including remote sync, ZIP backups, and operational scripts.
 
