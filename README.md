@@ -36,7 +36,7 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 [**Dicom-Tools**](https://github.com/ThalesMMS/Dicom-Tools): Single UI to test major DICOM libraries across multiple languages (DCMTK, GDCM, ITK/VTK, dicom-rs, fo-dicom, dcm4che, Cornerstone3D, pydicom/pynetdicom, etc.).
 
-**PACS-Natural-Language-Query**: toolkit for querying PACS studies using natural language.
+[**PACS-Natural-Language-Query**](https://github.com/ThalesMMS/PACS-Natural-Language-Query): toolkit for querying PACS studies using natural language.
 
 [**MTK - Metal Toolkit**](https://github.com/ThalesMMS/MTK): Modern Swift/Metal toolkit for high-fidelity medical imaging (volume rendering, MPR, SceneKit integration, SwiftUI components).
 
@@ -50,7 +50,9 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 [**MacPGP-app**](https://github.com/ThalesMMS/MacPGP-app): macOS OpenPGP client with key management, signing/encryption workflows, Keychain integration, and Finder extension support.
 
-[**rusty-dicom-node**](https://github.com/ThalesMMS/rusty-dicom-node) Lightweight DICOM node written in Rust, focused on performant DIMSE operations, local routing, and experimentation with low-level PACS infrastructure.
+[**rusty-dicom-node**](https://github.com/ThalesMMS/rusty-dicom-node): Lightweight DICOM node written in Rust, focused on performant DIMSE operations, local routing, and experimentation with low-level PACS infrastructure.
+
+[**dicom-go**](https://github.com/ThalesMMS/dicom-go): Go module for DICOM processing, providing a composable API for file reading, data set parsing, transfer syntax, and extension points for pixel data, JSON, and networking.
 
 [**ReadMyPaper**](https://github.com/ThalesMMS/ReadMyPaper): AI-assisted academic reading tool that converts scientific PDFs into audio narrations while removing disruptive artifacts (such as footers, headers and formatting noise).
 
