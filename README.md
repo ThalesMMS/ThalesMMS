@@ -98,17 +98,6 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 ---
 
-## Tech stack
-
-- **Languages:** Python · Swift · C++ · Rust · Dart · JavaScript · Java  
-- **Frameworks:** SwiftUI · Django · Flutter · Qt · Metal  
-- **AI/ML:** PyTorch · TensorFlow · scikit-learn  
-- **Medical imaging:** DCMTK · GDCM · VTK · ITK · OsiriX/Horos · 3D Slicer · Orthanc  
-- **Infra/DevOps:** Docker · Proxmox · NAS (QNAP + OSS) · Tailscale · Git  
-- **Environments:** macOS + Windows · Linux VMs · Dockerized services
-
----
-
 <div align="left" style="display:flex; justify-content:left; gap:10px;">
   <img style="height:150px;" src="https://thales-mms.vercel.app/api/top-langs?username=ThalesMMS&langs_count=6&layout=compact&theme=tokyonight&card_width=324" alt="Top languages" />
 </div>
