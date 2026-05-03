@@ -50,6 +50,12 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 [**MacPGP-app**](https://github.com/ThalesMMS/MacPGP-app): macOS OpenPGP client with key management, signing/encryption workflows, Keychain integration, and Finder extension support.
 
+[**rusty-dicom-node**](https://github.com/ThalesMMS/rusty-dicom-node): Lightweight DICOM node written in Rust, focused on performant DIMSE operations, local routing, and experimentation with low-level PACS infrastructure.
+
+[**dicom-go**](https://github.com/ThalesMMS/dicom-go): Go module for DICOM processing, providing a composable API for file reading, data set parsing, transfer syntax, and extension points for pixel data, JSON, and networking.
+
+[**ReadMyPaper**](https://github.com/ThalesMMS/ReadMyPaper): AI-assisted academic reading tool that converts scientific PDFs into audio narrations while removing disruptive artifacts (such as footers, headers and formatting noise).
+
 [**Radiology-Templates**](https://github.com/ThalesMMS/Radiology-Templates): Radiology report templates and Rust/Python tools to convert across DOCX, Markdown, and TXT.
 
 [**DcmSwift**](https://github.com/ThalesMMS/DcmSwift): Swift-native DICOM core (DIMSE + DICOMweb).
@@ -57,6 +63,8 @@ I'm a physician and computer science undergraduate exploring how software engine
 [**TotalSegmentator Horos/Osirix Plugin**](https://github.com/ThalesMMS/TotalSegmentator-Horos-Plugin): Bringing the modern TotalSegmentator to the open-source Horos Project!
 
 [**Second Brain**](https://github.com/ThalesMMS/Second-Brain-app): AI-powered note-taking app using on-device models, with tool calling, voice input, and structured editing.
+
+[**AI-Video-Dubber**](https://github.com/ThalesMMS/AI-Video-Dubber): GUI pipeline for automatic video dubbing using AI, combining speech synthesis and alignment techniques to generate synchronized audio tracks from text.
 
 [**GitHub-Replicant**](https://github.com/ThalesMMS/GitHub-Replicant-rs): fast async Rust CLI for bulk GitHub backups (clone/pull, sync by starred/followers/following).
 
@@ -90,19 +98,8 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 ---
 
-## Tech stack
-
-- **Languages:** Python · Swift · C++ · Rust · Dart · JavaScript · Java  
-- **Frameworks:** SwiftUI · Django · Flutter · Qt · Metal  
-- **AI/ML:** PyTorch · TensorFlow · scikit-learn  
-- **Medical imaging:** DCMTK · GDCM · VTK · ITK · OsiriX/Horos · 3D Slicer · Orthanc  
-- **Infra/DevOps:** Docker · Proxmox · NAS (QNAP + OSS) · Tailscale · Git  
-- **Environments:** macOS + Windows · Linux VMs · Dockerized services
-
----
-
 <div align="left" style="display:flex; justify-content:left; gap:10px;">
-  <img style="height:150px;" src="https://thales-mms.vercel.app/api/top-langs?username=ThalesMMS&langs_count=10&layout=compact&theme=tokyonight&card_width=319" alt="Top languages" />
+  <img style="height:150px;" src="https://thales-mms.vercel.app/api/top-langs?username=ThalesMMS&langs_count=6&layout=compact&theme=tokyonight&card_width=326" alt="Top languages" />
 </div>
 
 ---
