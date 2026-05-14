@@ -34,41 +34,41 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 [**JFlutter**](https://github.com/ThalesMMS/JFlutter): Cross-platform interactive educational tool to design and simulate automata, regular expressions, formal languages and Turing machines. Mobile‑first, touch‑optimised UI.
 
-[**Dicom-Tools**](https://github.com/ThalesMMS/Dicom-Tools): Single UI to test major DICOM libraries across multiple languages (DCMTK, GDCM, ITK/VTK, dicom-rs, fo-dicom, dcm4che, Cornerstone3D, pydicom/pynetdicom, etc.).
-
-**PACS-Natural-Language-Query**: toolkit for querying PACS studies using natural language.
-
 [**MTK - Metal Toolkit**](https://github.com/ThalesMMS/MTK): Modern Swift/Metal toolkit for high-fidelity medical imaging (volume rendering, MPR, SceneKit integration, SwiftUI components).
 
 [**dicom-viewer-mcp-app**](https://github.com/ThalesMMS/dicom-viewer-mcp-app): Prototype MCP App that displays DICOM medical images directly within LLM chat interfaces.
 
-[**BIONG (Biologically Inspired Organism, Not a Game)**](https://github.com/ThalesMMS/BIONG): A biologically inspired organism simulator where modular cortical networks drive survival behavior.
-
-## Other Projects
-
 [**DICOM-Decoder**](https://github.com/ThalesMMS/DICOM-Decoder): Swift DICOM pixel decode and window/level pipeline for uncompressed images.
-
-[**MacPGP-app**](https://github.com/ThalesMMS/MacPGP-app): macOS OpenPGP client with key management, signing/encryption workflows, Keychain integration, and Finder extension support.
 
 [**rusty-dicom-node**](https://github.com/ThalesMMS/rusty-dicom-node): Lightweight DICOM node written in Rust, focused on performant DIMSE operations, local routing, and experimentation with low-level PACS infrastructure.
 
 [**dicom-go**](https://github.com/ThalesMMS/dicom-go): Go module for DICOM processing, providing a composable API for file reading, data set parsing, transfer syntax, and extension points for pixel data, JSON, and networking.
 
+[**BIONG (Biologically Inspired Organism, Not a Game)**](https://github.com/ThalesMMS/BIONG): A biologically inspired organism simulator where modular cortical networks drive survival behavior.
+
+**PACS-Natural-Language-Query**: toolkit for querying PACS studies using natural language.
+
+[**MacPGP-app**](https://github.com/ThalesMMS/MacPGP-app): macOS OpenPGP client with key management, signing/encryption workflows, Keychain integration, and Finder extension support.
+
+## Other Projects
+
+[**TotalSegmentator Horos/Osirix Plugin**](https://github.com/ThalesMMS/TotalSegmentator-Horos-Plugin): Bringing the modern TotalSegmentator to the open-source Horos Project!
+
 [**ReadMyPaper**](https://github.com/ThalesMMS/ReadMyPaper): AI-assisted academic reading tool that converts scientific PDFs into audio narrations while removing disruptive artifacts (such as footers, headers and formatting noise).
+
+[**AI-Video-Dubber**](https://github.com/ThalesMMS/AI-Video-Dubber): GUI pipeline for automatic video dubbing using AI, combining speech synthesis and alignment techniques to generate synchronized audio tracks from text.
+
+[**Code-Scanner**](https://github.com/ThalesMMS/Code-Scanner): generate clean “whole-repo” text snapshots for reviews, audits, and AI prompts.
+
+[**GitHub-Replicant**](https://github.com/ThalesMMS/GitHub-Replicant-rs): fast async Rust CLI for bulk GitHub backups (clone/pull, sync by starred/followers/following).
+
+[**Dicom-Tools**](https://github.com/ThalesMMS/Dicom-Tools): Single UI to test major DICOM libraries across multiple languages (DCMTK, GDCM, ITK/VTK, dicom-rs, fo-dicom, dcm4che, Cornerstone3D, pydicom/pynetdicom, etc.).
 
 [**Radiology-Templates**](https://github.com/ThalesMMS/Radiology-Templates): Radiology report templates and Rust/Python tools to convert across DOCX, Markdown, and TXT.
 
 [**DcmSwift**](https://github.com/ThalesMMS/DcmSwift): Swift-native DICOM core (DIMSE + DICOMweb).
 
-[**TotalSegmentator Horos/Osirix Plugin**](https://github.com/ThalesMMS/TotalSegmentator-Horos-Plugin): Bringing the modern TotalSegmentator to the open-source Horos Project!
-
 [**Second Brain**](https://github.com/ThalesMMS/Second-Brain-app): AI-powered note-taking app using on-device models, with tool calling, voice input, and structured editing.
-
-[**AI-Video-Dubber**](https://github.com/ThalesMMS/AI-Video-Dubber): GUI pipeline for automatic video dubbing using AI, combining speech synthesis and alignment techniques to generate synchronized audio tracks from text.
-
-[**GitHub-Replicant**](https://github.com/ThalesMMS/GitHub-Replicant-rs): fast async Rust CLI for bulk GitHub backups (clone/pull, sync by starred/followers/following).
-
-[**Code-Scanner**](https://github.com/ThalesMMS/Code-Scanner): generate clean “whole-repo” text snapshots for reviews, audits, and AI prompts. 
 
 [**orthanc-tools**](https://github.com/ThalesMMS/orthanc-tools): Orthanc workflows for Docker and native Ubuntu, including remote sync, ZIP backups, and operational scripts.
 
@@ -99,7 +99,7 @@ I'm a physician and computer science undergraduate exploring how software engine
 ---
 
 <div align="left" style="display:flex; justify-content:left; gap:10px;">
-  <img style="height:150px;" src="https://thales-mms.vercel.app/api/top-langs?username=ThalesMMS&langs_count=6&layout=compact&theme=tokyonight&card_width=326" alt="Top languages" />
+  <img style="height:150px;" src="https://thales-mms.vercel.app/api/top-langs?username=ThalesMMS&langs_count=6&layout=compact&theme=tokyonight&card_width=327" alt="Top languages" />
 </div>
 
 ---
