@@ -46,13 +46,21 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 [**BIONG (Biologically Inspired Organism, Not a Game)**](https://github.com/ThalesMMS/BIONG): A biologically inspired organism simulator where modular cortical networks drive survival behavior.
 
+[**Go-DICOM-Viewer**](https://github.com/ThalesMMS/Go-DICOM-Viewer): DICOM viewer written in Go using the `dicom-go` library.
+
+[**Go-PACS**](https://github.com/ThalesMMS/Go-PACS): Small PACS written in Go using `dicom-go`, focused on native DICOM archive workflows.
+
+[**AutoComp**](https://github.com/ThalesMMS/AutoComp): Prototype macOS text autocomplete app focused on local AI-assisted writing and developer workflows.
+
+[**dicom-skill**](https://github.com/ThalesMMS/dicom-skill): Agent-oriented DICOM toolkit skill for DIMSE workflows, anonymization, JPEG 2000 transcoding, PNG previews, and PDF DICOMization.
+
+## Other Projects
+
 **PACS-Natural-Language-Query**: toolkit for querying PACS studies using natural language.
 
 [**MacPGP-app**](https://github.com/ThalesMMS/MacPGP-app): macOS OpenPGP client with key management, signing/encryption workflows, Keychain integration, and Finder extension support.
 
-## Other Projects
-
-[**TotalSegmentator Horos/Osirix Plugin**](https://github.com/ThalesMMS/TotalSegmentator-Horos-Plugin): Bringing the modern TotalSegmentator to the open-source Horos Project!
+[**TotalSegmentator Osirix/Horos Plugin**](https://github.com/ThalesMMS/TotalSegmentator-OsiriX-Horos-Plugin): Bringing the modern TotalSegmentator to the open-source Horos Project!
 
 [**ReadMyPaper**](https://github.com/ThalesMMS/ReadMyPaper): AI-assisted academic reading tool that converts scientific PDFs into audio narrations while removing disruptive artifacts (such as footers, headers and formatting noise).
 
@@ -99,7 +107,7 @@ I'm a physician and computer science undergraduate exploring how software engine
 ---
 
 <div align="left" style="display:flex; justify-content:left; gap:10px;">
-  <img style="height:150px;" src="https://thales-mms.vercel.app/api/top-langs?username=ThalesMMS&langs_count=6&layout=compact&theme=tokyonight&card_width=327" alt="Top languages" />
+  <img style="height:150px;" src="https://thales-mms.vercel.app/api/top-langs?username=ThalesMMS&langs_count=4&layout=compact&theme=tokyonight&card_width=151" alt="Top languages" />
 </div>
 
 ---
