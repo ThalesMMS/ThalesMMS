@@ -30,17 +30,17 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 ## Current Projects
 
-**Isis DICOM Viewer** (Windows, macOS, iOS, iPadOS): built natively in Swift for Apple platforms and developed in Qt/C++ for Windows, providing 2D visualization, MPR, volumetric rendering, PACS/DIMSE support, and ROI measurement tools.
+**Isis DICOM Viewer** (Windows, macOS, iOS, iPadOS): Cross-platform DICOM viewer for Windows, macOS, iOS, and iPadOS, built with native Swift on Apple platforms and Qt/C++ on Windows. Supports 2D viewing, MPR, volume rendering, DIMSE/PACS workflows, and ROI measurement tools.
 
-[**JFlutter**](https://github.com/ThalesMMS/JFlutter): Cross-platform interactive educational tool to design and simulate automata, regular expressions, formal languages and Turing machines. Mobile‑first, touch‑optimised UI.
+[**JFlutter**](https://github.com/ThalesMMS/JFlutter): Mobile-first educational simulator for automata theory, regular expressions, formal languages, and Turing machines.
 
-[**MTK - Metal Toolkit**](https://github.com/ThalesMMS/MTK): Modern Swift/Metal toolkit for high-fidelity medical imaging (volume rendering, MPR, SceneKit integration, SwiftUI components).
+[**MTK - Metal Toolkit**](https://github.com/ThalesMMS/MTK): Swift/Metal medical imaging toolkit for high-performance volume rendering and MPR, with reusable SwiftUI imaging components.
 
-[**dicom-viewer-mcp-app**](https://github.com/ThalesMMS/dicom-viewer-mcp-app): Prototype MCP App that displays DICOM medical images directly within LLM chat interfaces.
+[**dicom-viewer-mcp-app**](https://github.com/ThalesMMS/dicom-viewer-mcp-app): Prototype MCP app for displaying DICOM medical images directly inside LLM chat interfaces.
 
-[**DICOM-Decoder**](https://github.com/ThalesMMS/DICOM-Decoder): Swift DICOM pixel decode and window/level pipeline for uncompressed images.
+[**DICOM-Decoder**](https://github.com/ThalesMMS/DICOM-Decoder): Swift-native DICOM pixel decoding, window/level pipeline and networking.
 
-[**rusty-dicom-node**](https://github.com/ThalesMMS/rusty-dicom-node): Lightweight DICOM node written in Rust, focused on performant DIMSE operations, local routing, and experimentation with low-level PACS infrastructure.
+[**rusty-dicom-node**](https://github.com/ThalesMMS/rusty-dicom-node): Lightweight Rust DICOM node with DIMSE services, built with dicom-rs.
 
 [**dicom-go**](https://github.com/ThalesMMS/dicom-go): Go module for DICOM processing, providing a composable API for file reading, data set parsing, transfer syntax, and extension points for pixel data, JSON, and networking.
 
