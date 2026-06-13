@@ -32,6 +32,8 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 **Isis DICOM Viewer** (Windows, macOS, iOS, iPadOS): Cross-platform DICOM viewer family. The Apple app uses SwiftUI, DICOM-Swift/GDCM bridges, DIMSE/DICOMweb, and MTK Metal rendering; the Windows app uses C++/Qt/VTK/GDCM/DCMTK for PACS, 2D, MPR, and volume rendering.
 
+[**TaskForge**](https://github.com/ThalesMMS/TaskForge-app): AI-assisted project planning and task workflows grounded in your codebase.
+
 [**JFlutter**](https://github.com/ThalesMMS/JFlutter): Touch-first Flutter reimplementation of JFLAP for building and simulating finite automata, grammars, pushdown automata, Turing machines, and regular expressions across mobile, desktop, and web.
 
 [**MTK - Metal Toolkit**](https://github.com/ThalesMMS/MTK): Swift Package for Metal-native medical volume rendering and SwiftUI clinical viewports. Provides MTKCore/MTKUI surfaces for GPU-resident volume, MPR, projections, overlays, transfer functions, and reusable imaging UI.
@@ -107,7 +109,7 @@ I'm a physician and computer science undergraduate exploring how software engine
 ---
 
 <div align="left" style="display:flex; justify-content:left; gap:10px;">
-  <img style="height:150px;" src="https://thales-mms.vercel.app/api/top-langs?username=ThalesMMS&langs_count=4&layout=compact&theme=tokyonight&card_width=151" alt="Top languages" />
+  <img style="height:150px;" src="https://thales-mms.vercel.app/api/top-langs?username=ThalesMMS&langs_count=6&layout=compact&theme=tokyonight&card_width=181" alt="Top languages" />
 </div>
 
 ---
