@@ -60,13 +60,13 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 **PACS-Natural-Language-Query**: CLI toolkit that translates natural language or SQL into validated DICOM C-FIND queries over virtual study/series tables, with dry-run/explain output, result streaming, and PHI-aware logging controls.
 
-[**MacPGP-app**](https://github.com/ThalesMMS/MacPGP-app): Native macOS OpenPGP app for key generation/import/export, file and message encryption, signing, signature verification, Keychain passphrase storage, and Finder/Quick Look extensions for encrypted files.
+[**MacPGP-app**](https://github.com/ThalesMMS/MacPGP-app) and [**PGP-Client-go**](https://github.com/ThalesMMS/PGP-Client-go): OpenPGP apps for key generation/import/export, file and message encryption, signing, signature verification, Keychain passphrase storage, and Finder/Quick Look extensions for encrypted files.
 
 [**TotalSegmentator Osirix/Horos Plugin**](https://github.com/ThalesMMS/TotalSegmentator-OsiriX-Horos-Plugin): Swift Horos/OsiriX plugin that exports active CT/MR series, provisions an isolated Python TotalSegmentator environment, runs segmentation, and imports RT-Struct overlays back into the host viewer.
 
-[**ReadMyPaper**](https://github.com/ThalesMMS/ReadMyPaper): Local Python/FastAPI web app that converts scientific PDFs into listenable audio by using Docling layout extraction, reading-order repair, section filtering, optional LLM cleanup, notation verbalization, and Piper/Kokoro TTS.
+[**ReadMyPaper-go**](https://github.com/ThalesMMS/ReadMyPaper-go): Local app that converts scientific PDFs into listenable audio by using Docling layout extraction, reading-order repair, section filtering, optional LLM cleanup, notation verbalization, and Piper/Kokoro TTS.
 
-[**AI-Video-Dubber**](https://github.com/ThalesMMS/AI-Video-Dubber): Local video dubbing pipeline with GUI and CLI: extracts audio with ffmpeg, transcribes with Whisper, translates through an OpenAI-compatible LLM endpoint, generates synced Piper TTS, and remuxes dubbed audio into the video.
+[**AI-Video-Dubber-go**](https://github.com/ThalesMMS/AI-Video-Dubber-go): Local video dubbing pipeline with GUI and CLI: extracts audio with ffmpeg, transcribes with Whisper, translates through an OpenAI-compatible LLM endpoint, generates synced Piper TTS, and remuxes dubbed audio into the video.
 
 [**Code-Scanner**](https://github.com/ThalesMMS/Code-Scanner): Rust CLI plus Bash fallback that bundles a repository into a single text report, with LOC-oriented scanning, ignore/filter controls, and outputs designed for audits, code review, and LLM prompts.
 
@@ -109,7 +109,7 @@ I'm a physician and computer science undergraduate exploring how software engine
 ---
 
 <div align="left" style="display:flex; justify-content:left; gap:10px;">
-  <img style="height:150px;" src="https://thales-mms.vercel.app/api/top-langs?username=ThalesMMS&langs_count=6&layout=compact&theme=tokyonight&card_width=181" alt="Top languages" />
+  <img style="height:150px;" src="https://thales-mms.vercel.app/api/top-langs?username=ThalesMMS&langs_count=6&layout=compact&theme=tokyonight&card_width=186" alt="Top languages" />
 </div>
 
 ---
