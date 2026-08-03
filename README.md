@@ -32,7 +32,7 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 **Isis DICOM Viewer** (Windows, macOS, iOS, iPadOS): Cross-platform DICOM viewer family. The Apple app uses SwiftUI, DICOM-Swift/GDCM bridges, DIMSE/DICOMweb, and MTK Metal rendering; the Windows app uses C++/Qt/VTK/GDCM/DCMTK for PACS, 2D, MPR, and volume rendering.
 
-[**TaskForge**](https://github.com/ThalesMMS/TaskForge-app): AI-assisted project planning and task workflows grounded in your codebase.
+**TaskForge**: AI-assisted project planning and task workflows grounded in your codebase.
 
 [**JFlutter**](https://github.com/ThalesMMS/JFlutter): Touch-first Flutter reimplementation of JFLAP for building and simulating finite automata, grammars, pushdown automata, Turing machines, and regular expressions across mobile, desktop, and web.
 
@@ -40,7 +40,7 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 [**dicom-viewer-mcp-app**](https://github.com/ThalesMMS/dicom-viewer-mcp-app): MCP app/server that renders local DICOM series into server-side PNG slices with window/level handling, then embeds an interactive viewer with slice navigation, zoom, pan, and metadata inside LLM chat clients.
 
-[**DICOM-Decoder**](https://github.com/ThalesMMS/DICOM-Decoder): Pure Swift DICOM decoder toolkit for iOS/macOS with metadata and pixel parsing, window/level and export pipelines, series/ZIP loading, SwiftUI viewer components, CLI tools, and DIMSE/DICOMweb helpers.
+[**DICOM-Swift**](https://github.com/ThalesMMS/DICOM-Swift): Pure Swift DICOM decoder toolkit for iOS/macOS with metadata and pixel parsing, window/level and export pipelines, series/ZIP loading, SwiftUI viewer components, CLI tools, and DIMSE/DICOMweb helpers.
 
 [**rusty-dicom-node**](https://github.com/ThalesMMS/rusty-dicom-node): Terminal-first Rust DICOM node client built on dicom-rs, focused on remote node configuration, C-FIND/C-MOVE/C-STORE workflows, SQLite local indexing, recursive/ZIP import, and a ratatui TUI.
 
@@ -76,8 +76,6 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 [**Radiology-Templates**](https://github.com/ThalesMMS/Radiology-Templates): Radiology report template repository with Python/Rust tools for DOCX, Markdown, and TXT round trips, consistent formatting rules, index generation, backup handling, and conversion cleanup.
 
-[**DcmSwift**](https://github.com/ThalesMMS/DcmSwift): Swift DICOM package with Metal/vDSP window-level processing, DIMSE and DICOMweb query/retrieve services, streaming decode, CLI tools for inspection/anonymization/retrieval/server workflows, and PACS integration utilities.
-
 [**Second Brain**](https://github.com/ThalesMMS/Second-Brain-app): SwiftUI iPhone/Apple Watch note-taking app with local notes, transient voice capture, note-aware search and Q&A, safe AI edit flows, App Intents, CloudKit sync, and on-device Apple Intelligence when available.
 
 [**orthanc-tools**](https://github.com/ThalesMMS/orthanc-tools): Python Orthanc operations toolkit for Docker and native Ubuntu deployment, REST health checks, remote sync, PACS mirroring, date-based backfill, ZIP export/backup workflows, and Proxmox/NAT troubleshooting scripts.
@@ -109,7 +107,7 @@ I'm a physician and computer science undergraduate exploring how software engine
 ---
 
 <div align="left" style="display:flex; justify-content:left; gap:10px;">
-  <img style="height:150px;" src="https://thales-mms.vercel.app/api/top-langs?username=ThalesMMS&langs_count=6&layout=compact&theme=tokyonight&card_width=194" alt="Top languages" />
+  <img style="height:150px;" src="https://thales-mms.vercel.app/api/top-langs?username=ThalesMMS&langs_count=6&layout=compact&theme=tokyonight&card_width=195" alt="Top languages" />
 </div>
 
 ---
