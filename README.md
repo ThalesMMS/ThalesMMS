@@ -34,7 +34,7 @@ I'm a physician and computer science undergraduate exploring how software engine
       <br>
       <b>Isis DICOM Viewer</b>
       <br>
-      <sub>Cross-platform DICOM viewer family — SwiftUI + MTK Metal rendering on Apple platforms; C++/Qt/VTK/GDCM/DCMTK on Windows, with PACS, 2D, MPR, and volume rendering.</sub>
+      <sub>Cross-platform DICOM viewer family — for all Apple devices, Windows and Android</sub>
       <br><br>
     </td>
     <td width="50%" valign="top" align="center">
