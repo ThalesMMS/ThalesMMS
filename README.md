@@ -160,5 +160,5 @@ I'm a physician and computer science undergraduate exploring how software engine
 ---
 
 <p align="center">
-  <img width="300" src="https://thales-mms.vercel.app/api/top-langs?username=ThalesMMS&langs_count=6&layout=compact&theme=tokyonight&card_width=300" alt="Top languages">
+  <img width="300" src="https://thales-mms.vercel.app/api/top-langs?username=ThalesMMS&langs_count=6&layout=compact&theme=tokyonight&card_width=301" alt="Top languages">
 </p>
