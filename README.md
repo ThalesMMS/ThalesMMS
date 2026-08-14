@@ -48,7 +48,7 @@ I'm a physician and computer science undergraduate exploring how software engine
   </tr>
   <tr>
     <td width="50%" valign="top" align="center">
-      <a href="https://github.com/ThalesMMS/Turing-Lab"><img src="assets/project-gallery/Turing-Lab.jpg" width="100%" alt="Turing-Lab finite-state automata simulator"></a>
+      <a href="https://github.com/ThalesMMS/Turing-Lab"><img src="assets/project-gallery/jflutter.jpg" width="100%" alt="Turing-Lab finite-state automata simulator"></a>
       <br>
       <a href="https://github.com/ThalesMMS/Turing-Lab"><b>Turing-Lab</b></a>
       <br>
