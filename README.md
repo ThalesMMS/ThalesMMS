@@ -48,9 +48,9 @@ I'm a physician and computer science undergraduate exploring how software engine
   </tr>
   <tr>
     <td width="50%" valign="top" align="center">
-      <a href="https://github.com/ThalesMMS/JFlutter"><img src="assets/project-gallery/jflutter.jpg" width="100%" alt="JFlutter finite-state automata simulator"></a>
+      <a href="https://github.com/ThalesMMS/Turing-Lab"><img src="assets/project-gallery/Turing-Lab.jpg" width="100%" alt="Turing-Lab finite-state automata simulator"></a>
       <br>
-      <a href="https://github.com/ThalesMMS/JFlutter"><b>JFlutter</b></a>
+      <a href="https://github.com/ThalesMMS/Turing-Lab"><b>Turing-Lab</b></a>
       <br>
       <sub>Touch-first Flutter reimplementation of JFLAP — automata, grammars, pushdown automata, Turing machines, and regexes on mobile, desktop, and web.</sub>
       <br><br>
