@@ -29,7 +29,7 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 <table>
   <tr>
-    <td width="50%" valign="top" align="center">
+    <td width="50%" valign="middle" align="center">
       <img src="assets/project-gallery/isis-dicom-viewer.jpg" width="100%" alt="Isis DICOM Viewer showing multiplanar CT reconstruction">
       <br>
       <b>Isis DICOM Viewer</b>
@@ -37,7 +37,7 @@ I'm a physician and computer science undergraduate exploring how software engine
       <sub>Cross-platform DICOM viewer family — for all Apple devices, Windows and Android</sub>
       <br><br>
     </td>
-    <td width="50%" valign="top" align="center">
+    <td width="50%" valign="middle" align="center">
       <a href="https://github.com/ThalesMMS/dicom-slides"><img src="assets/project-gallery/dicom-slides.jpg" width="100%" alt="DICOM Slides PowerPoint add-in with MPR viewer"></a>
       <br>
       <a href="https://github.com/ThalesMMS/dicom-slides"><b>dicom-slides</b></a>
@@ -47,7 +47,7 @@ I'm a physician and computer science undergraduate exploring how software engine
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top" align="center">
+    <td width="50%" valign="middle" align="center">
       <a href="https://github.com/ThalesMMS/dicom-plugin"><img src="assets/project-gallery/dicom-plugin.jpg" width="100%" alt="dicom-plugin in-chat DICOM viewer"></a>
       <br>
       <a href="https://github.com/ThalesMMS/dicom-plugin"><b>dicom-plugin</b></a>
@@ -59,7 +59,7 @@ I'm a physician and computer science undergraduate exploring how software engine
       <sub>DICOM toolkit for AI agents: query/retrieve, send, anonymize, transcode, export, and an interactive in-chat viewer.</sub>
       <br><br>
     </td>
-    <td width="50%" valign="top" align="center">
+    <td width="50%" valign="middle" align="center">
       <a href="https://github.com/ThalesMMS/TotalSegmentator-OsiriX-Horos-Plugin"><img src="assets/project-gallery/totalsegmentator.jpg" width="100%" alt="TotalSegmentator OsiriX/Horos plugin overlay"></a>
       <br>
       <a href="https://github.com/ThalesMMS/TotalSegmentator-OsiriX-Horos-Plugin"><b>TotalSegmentator OsiriX/Horos Plugin</b></a>
@@ -69,7 +69,7 @@ I'm a physician and computer science undergraduate exploring how software engine
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top" align="center">
+    <td width="50%" valign="middle" align="center">
       <a href="https://github.com/ThalesMMS/CodeAtlas"><img src="assets/project-gallery/codeatlas.jpg" width="100%" alt="CodeAtlas workspace with Hover Explain and DeepWiki"></a>
       <br>
       <a href="https://github.com/ThalesMMS/CodeAtlas"><b>CodeAtlas</b></a>
@@ -77,7 +77,7 @@ I'm a physician and computer science undergraduate exploring how software engine
       <sub>Explore your codebase from individual symbols to system-wide architecture.</sub>
       <br><br>
     </td>
-    <td width="50%" valign="top" align="center">
+    <td width="50%" valign="middle" align="center">
       <a href="https://github.com/ThalesMMS/TaskForge"><img src="assets/project-gallery/taskforge.jpg" width="100%" alt="TaskForge code and Git workspace"></a>
       <br>
       <a href="https://github.com/ThalesMMS/TaskForge"><b>TaskForge</b></a>
@@ -87,7 +87,7 @@ I'm a physician and computer science undergraduate exploring how software engine
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top" align="center">
+    <td width="50%" valign="middle" align="center">
       <img src="assets/project-gallery/the-legend-of-source.jpg" width="100%" alt="The Legend of Source commit graph and narrative">
       <br>
       <b>The Legend of Source - Branches of Time</b>
@@ -95,7 +95,7 @@ I'm a physician and computer science undergraduate exploring how software engine
       <sub>Git history explorer with evidence-linked narrative.</sub>
       <br><br>
     </td>
-    <td width="50%" valign="top" align="center">
+    <td width="50%" valign="middle" align="center">
       <img src="assets/project-gallery/scout.jpg" width="100%" alt="Scout structured report editor">
       <br>
       <b>Scout</b>
@@ -105,7 +105,7 @@ I'm a physician and computer science undergraduate exploring how software engine
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top" align="center">
+    <td width="50%" valign="middle" align="center">
       <a href="https://github.com/ThalesMMS/DICOM-Swift"><img src="assets/project-gallery/dicom-swift.jpg" width="100%" alt="DICOM-Swift CT image viewer"></a>
       <br>
       <a href="https://github.com/ThalesMMS/DICOM-Swift"><b>DICOM-Swift</b></a>
@@ -113,7 +113,7 @@ I'm a physician and computer science undergraduate exploring how software engine
       <sub>Pure Swift DICOM decoder toolkit for iOS/macOS — metadata and pixel parsing, window/level and export pipelines.</sub>
       <br><br>
     </td>
-    <td width="50%" valign="top" align="center">
+    <td width="50%" valign="middle" align="center">
       <a href="https://github.com/ThalesMMS/MTK"><img src="assets/project-gallery/mtk.jpg" width="100%" alt="MTK medical volume rendering on iPhone"></a>
       <br>
       <a href="https://github.com/ThalesMMS/MTK"><b>MTK — Metal Toolkit</b></a>
@@ -123,7 +123,7 @@ I'm a physician and computer science undergraduate exploring how software engine
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top" align="center">
+    <td width="50%" valign="middle" align="center">
       <a href="https://github.com/ThalesMMS/RadRef"><img src="assets/project-gallery/radref.jpg" width="100%" alt="RadRef modular radiology reference app"></a>
       <br>
       <a href="https://github.com/ThalesMMS/RadRef"><b>RadRef</b></a>
@@ -131,7 +131,7 @@ I'm a physician and computer science undergraduate exploring how software engine
       <sub>Modular collaborative radiology reference app.</sub>
       <br><br>
     </td>
-    <td width="50%" valign="top" align="center">
+    <td width="50%" valign="middle" align="center">
       <a href="https://github.com/ThalesMMS/Podcast-Intelligence"><img src="assets/project-gallery/podcast-intelligence.jpg" width="100%" alt="Podcast Intelligence episode library and grounded chat"></a>
       <br>
       <a href="https://github.com/ThalesMMS/Podcast-Intelligence"><b>Podcast Intelligence</b></a>
@@ -141,7 +141,7 @@ I'm a physician and computer science undergraduate exploring how software engine
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top" align="center">
+    <td width="50%" valign="middle" align="center">
       <a href="https://github.com/ThalesMMS/Turing-Lab"><img src="assets/project-gallery/jflutter.jpg" width="100%" alt="Turing-Lab finite-state automata simulator"></a>
       <br>
       <a href="https://github.com/ThalesMMS/Turing-Lab"><b>Turing-Lab</b></a>
@@ -149,7 +149,7 @@ I'm a physician and computer science undergraduate exploring how software engine
       <sub>Touch-first cross-platform reimplementation of JFLAP: automata, grammars, pushdown automata, Turing machines, and regexes.</sub>
       <br><br>
     </td>
-    <td width="50%" valign="top" align="center">
+    <td width="50%" valign="middle" align="center">
       <a href="https://github.com/ThalesMMS/BIONG"><img src="assets/project-gallery/biong.jpg" width="100%" alt="BIONG neuro-modular organism simulation"></a>
       <br>
       <a href="https://github.com/ThalesMMS/BIONG"><b>BIONG</b></a>
@@ -159,7 +159,7 @@ I'm a physician and computer science undergraduate exploring how software engine
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top" align="center">
+    <td width="50%" valign="middle" align="center">
       <a href="https://github.com/ThalesMMS/MacPGP-app"><img src="assets/project-gallery/macpgp.jpg" width="100%" alt="MacPGP keyring interface"></a>
       <br>
       <a href="https://github.com/ThalesMMS/MacPGP-app"><b>MacPGP</b></a>
@@ -167,7 +167,7 @@ I'm a physician and computer science undergraduate exploring how software engine
       <sub>OpenPGP for macOS: key management, file/message encryption, signing and Keychain passphrase storage.</sub>
       <br><br>
     </td>
-    <td width="50%" valign="top" align="center">
+    <td width="50%" valign="middle" align="center">
       <img src="assets/project-gallery/videorag-dubber-studio-ios.jpg" width="100%" alt="Video Subtitler on iPhone">
       <br>
       <b>Video Subtitler</b>
