@@ -38,11 +38,57 @@ I'm a physician and computer science undergraduate exploring how software engine
       <br><br>
     </td>
     <td width="50%" valign="top" align="center">
-      <img src="assets/project-gallery/taskforge.jpg" width="100%" alt="TaskForge code and Git workspace">
+      <a href="https://github.com/ThalesMMS/TaskForge"><img src="assets/project-gallery/taskforge.jpg" width="100%" alt="TaskForge code and Git workspace"></a>
       <br>
-      <b>TaskForge</b>
+      <a href="https://github.com/ThalesMMS/TaskForge"><b>TaskForge</b></a>
       <br>
-      <sub>AI-assisted project planning and task workflows grounded in your codebase.</sub>
+      <sub>Smart git tools, project planning and task workflows grounded in your codebase.</sub>
+      <br><br>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/ThalesMMS/CodeAtlas"><img src="assets/project-gallery/codeatlas.jpg" width="100%" alt="CodeAtlas workspace with Hover Explain and DeepWiki"></a>
+      <br>
+      <a href="https://github.com/ThalesMMS/CodeAtlas"><b>CodeAtlas</b></a>
+      <br>
+      <sub>Explore your codebase from individual symbols to system-wide architecture.</sub>
+      <br><br>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/ThalesMMS/Scout"><img src="assets/project-gallery/scout.jpg" width="100%" alt="Scout structured report editor"></a>
+      <br>
+      <a href="https://github.com/ThalesMMS/Scout"><b>Scout</b></a>
+      <br>
+      <sub>Desktop editor for radiology reports — smart autocomplete tools, AI agents and speech-to-text.</sub>
+      <br><br>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/ThalesMMS/The-Legend-of-Source"><img src="assets/project-gallery/the-legend-of-source.jpg" width="100%" alt="The Legend of Source commit graph and narrative"></a>
+      <br>
+      <a href="https://github.com/ThalesMMS/The-Legend-of-Source"><b>The Legend of Source</b><br>Branches of Time</a>
+      <br>
+      <sub>Git history explorer with evidence-linked narrative.</sub>
+      <br><br>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/ThalesMMS/dicom-slides"><img src="assets/project-gallery/dicom-slides.jpg" width="100%" alt="DICOM Slides PowerPoint add-in with MPR viewer"></a>
+      <br>
+      <a href="https://github.com/ThalesMMS/dicom-slides"><b>dicom-slides</b></a>
+      <br>
+      <sub>Interactive DICOM viewer for PowerPoint and HTML slides — 2D stack, MPR and 3D.</sub>
+      <br><br>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/ThalesMMS/Podcast-Intelligence"><img src="assets/project-gallery/podcast-intelligence.jpg" width="100%" alt="Podcast Intelligence episode library and grounded chat"></a>
+      <br>
+      <a href="https://github.com/ThalesMMS/Podcast-Intelligence"><b>Podcast Intelligence</b></a>
+      <br>
+      <sub>Podcast and audio platform — transcription, time-aware summaries, and grounded Q&amp;A with citations.</sub>
       <br><br>
     </td>
   </tr>
