@@ -68,7 +68,7 @@ I'm a physician and computer science undergraduate exploring how software engine
     <td width="50%" valign="top" align="center">
       <a href="https://github.com/ThalesMMS/The-Legend-of-Source"><img src="assets/project-gallery/the-legend-of-source.jpg" width="100%" alt="The Legend of Source commit graph and narrative"></a>
       <br>
-      <a href="https://github.com/ThalesMMS/The-Legend-of-Source"><b>The Legend of Source</b><br>Branches of Time</a>
+      <a href="https://github.com/ThalesMMS/The-Legend-of-Source"><b>The Legend of Source - Branches of Time</b></a>
       <br>
       <sub>Git history explorer with evidence-linked narrative.</sub>
       <br><br>
@@ -89,6 +89,18 @@ I'm a physician and computer science undergraduate exploring how software engine
       <a href="https://github.com/ThalesMMS/Podcast-Intelligence"><b>Podcast Intelligence</b></a>
       <br>
       <sub>Podcast and audio platform — transcription, time-aware summaries, and grounded Q&amp;A with citations.</sub>
+      <br><br>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/ThalesMMS/dicom-plugin"><img src="assets/project-gallery/dicom-plugin.jpg" width="100%" alt="dicom-plugin in-chat DICOM viewer"></a>
+      <br>
+      <a href="https://github.com/ThalesMMS/dicom-plugin"><b>dicom-plugin</b></a>
+      ·
+      <a href="https://github.com/ThalesMMS/dicom-skill"><b>dicom-skill</b></a>
+      ·
+      <a href="https://github.com/ThalesMMS/dicom-viewer-mcp-app"><b>dicom-viewer-mcp-app</b></a>
+      <br>
+      <sub>Integrated DICOM toolkit that turns AI agents and chat clients into imaging workstations: MCP-based DIMSE/DICOMweb query/retrieve, safe sending, anonymization, transcoding, PDF/PNG/MP4 export, and an interactive in-chat viewer.</sub>
       <br><br>
     </td>
   </tr>
@@ -172,7 +184,6 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 ### Medical Imaging & Radiology
 
-- [**dicom-plugin**](https://github.com/ThalesMMS/dicom-plugin) · [**dicom-skill**](https://github.com/ThalesMMS/dicom-skill) · [**dicom-viewer-mcp-app**](https://github.com/ThalesMMS/dicom-viewer-mcp-app) — Integrated DICOM toolkit that turns AI agents and chat clients into imaging workstations: MCP-based DIMSE/DICOMweb query/retrieve, safe sending, anonymization, transcoding, PDF/PNG/MP4 export, and an interactive in-chat viewer.
 - [**dicom-go**](https://github.com/ThalesMMS/dicom-go) — Pure Go DICOM module: read/write, DICOM JSON conversion, pixel data extraction, dictionaries and transfer syntaxes, and minimal C-ECHO/C-STORE workflows.
 - [**rusty-dicom-node**](https://github.com/ThalesMMS/rusty-dicom-node) — Terminal-first Rust DICOM node client built on dicom-rs: remote node configuration, C-FIND/C-MOVE/C-STORE workflows, SQLite local indexing, recursive/ZIP import, and a ratatui TUI.
 - **PACS-Natural-Language-Query** — CLI toolkit that translates natural language or SQL into validated DICOM C-FIND queries, with dry-run/explain output, result streaming, and PHI-aware logging.
