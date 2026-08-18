@@ -38,11 +38,33 @@ I'm a physician and computer science undergraduate exploring how software engine
       <br><br>
     </td>
     <td width="50%" valign="top" align="center">
-      <a href="https://github.com/ThalesMMS/TaskForge"><img src="assets/project-gallery/taskforge.jpg" width="100%" alt="TaskForge code and Git workspace"></a>
+      <a href="https://github.com/ThalesMMS/dicom-slides"><img src="assets/project-gallery/dicom-slides.jpg" width="100%" alt="DICOM Slides PowerPoint add-in with MPR viewer"></a>
       <br>
-      <a href="https://github.com/ThalesMMS/TaskForge"><b>TaskForge</b></a>
+      <a href="https://github.com/ThalesMMS/dicom-slides"><b>dicom-slides</b></a>
       <br>
-      <sub>Smart git tools, project planning and task workflows grounded in your codebase.</sub>
+      <sub>Interactive DICOM viewer for PowerPoint and HTML slides — 2D stack, MPR and 3D.</sub>
+      <br><br>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/ThalesMMS/dicom-plugin"><img src="assets/project-gallery/dicom-plugin.jpg" width="100%" alt="dicom-plugin in-chat DICOM viewer"></a>
+      <br>
+      <a href="https://github.com/ThalesMMS/dicom-plugin"><b>dicom-plugin</b></a>
+      ·
+      <a href="https://github.com/ThalesMMS/dicom-skill"><b>dicom-skill</b></a>
+      ·
+      <a href="https://github.com/ThalesMMS/dicom-viewer-mcp-app"><b>dicom-viewer-mcp-app</b></a>
+      <br>
+      <sub>DICOM toolkit for AI agents: query/retrieve, send, anonymize, transcode, export, and an interactive in-chat viewer.</sub>
+      <br><br>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/ThalesMMS/TotalSegmentator-OsiriX-Horos-Plugin"><img src="assets/project-gallery/totalsegmentator.jpg" width="100%" alt="TotalSegmentator OsiriX/Horos plugin overlay"></a>
+      <br>
+      <a href="https://github.com/ThalesMMS/TotalSegmentator-OsiriX-Horos-Plugin"><b>TotalSegmentator OsiriX/Horos Plugin</b></a>
+      <br>
+      <sub>Run TotalSegmentator easily in OsiriX and Horos.</sub>
       <br><br>
     </td>
   </tr>
@@ -56,87 +78,47 @@ I'm a physician and computer science undergraduate exploring how software engine
       <br><br>
     </td>
     <td width="50%" valign="top" align="center">
-      <a href="https://github.com/ThalesMMS/Scout"><img src="assets/project-gallery/scout.jpg" width="100%" alt="Scout structured report editor"></a>
+      <a href="https://github.com/ThalesMMS/TaskForge"><img src="assets/project-gallery/taskforge.jpg" width="100%" alt="TaskForge code and Git workspace"></a>
       <br>
-      <a href="https://github.com/ThalesMMS/Scout"><b>Scout</b></a>
+      <a href="https://github.com/ThalesMMS/TaskForge"><b>TaskForge</b></a>
       <br>
-      <sub>Desktop editor for radiology reports — smart autocomplete tools, AI agents and speech-to-text.</sub>
+      <sub>Smart git tools, project planning and task workflows grounded in your codebase.</sub>
       <br><br>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top" align="center">
-      <a href="https://github.com/ThalesMMS/The-Legend-of-Source"><img src="assets/project-gallery/the-legend-of-source.jpg" width="100%" alt="The Legend of Source commit graph and narrative"></a>
+      <img src="assets/project-gallery/the-legend-of-source.jpg" width="100%" alt="The Legend of Source commit graph and narrative">
       <br>
-      <a href="https://github.com/ThalesMMS/The-Legend-of-Source"><b>The Legend of Source - Branches of Time</b></a>
+      <b>The Legend of Source - Branches of Time</b>
       <br>
       <sub>Git history explorer with evidence-linked narrative.</sub>
       <br><br>
     </td>
     <td width="50%" valign="top" align="center">
-      <a href="https://github.com/ThalesMMS/dicom-slides"><img src="assets/project-gallery/dicom-slides.jpg" width="100%" alt="DICOM Slides PowerPoint add-in with MPR viewer"></a>
+      <img src="assets/project-gallery/scout.jpg" width="100%" alt="Scout structured report editor">
       <br>
-      <a href="https://github.com/ThalesMMS/dicom-slides"><b>dicom-slides</b></a>
+      <b>Scout</b>
       <br>
-      <sub>Interactive DICOM viewer for PowerPoint and HTML slides — 2D stack, MPR and 3D.</sub>
+      <sub>Desktop editor for radiology reports: smart autocomplete tools, AI agents and speech-to-text.</sub>
       <br><br>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top" align="center">
-      <a href="https://github.com/ThalesMMS/Podcast-Intelligence"><img src="assets/project-gallery/podcast-intelligence.jpg" width="100%" alt="Podcast Intelligence episode library and grounded chat"></a>
-      <br>
-      <a href="https://github.com/ThalesMMS/Podcast-Intelligence"><b>Podcast Intelligence</b></a>
-      <br>
-      <sub>Podcast and audio platform — transcription, time-aware summaries, and grounded Q&amp;A with citations.</sub>
-      <br><br>
-    </td>
-    <td width="50%" valign="top" align="center">
-      <a href="https://github.com/ThalesMMS/dicom-plugin"><img src="assets/project-gallery/dicom-plugin.jpg" width="100%" alt="dicom-plugin in-chat DICOM viewer"></a>
-      <br>
-      <a href="https://github.com/ThalesMMS/dicom-plugin"><b>dicom-plugin</b></a>
-      ·
-      <a href="https://github.com/ThalesMMS/dicom-skill"><b>dicom-skill</b></a>
-      ·
-      <a href="https://github.com/ThalesMMS/dicom-viewer-mcp-app"><b>dicom-viewer-mcp-app</b></a>
-      <br>
-      <sub>Integrated DICOM toolkit that turns AI agents and chat clients into imaging workstations: MCP-based DIMSE/DICOMweb query/retrieve, safe sending, anonymization, transcoding, PDF/PNG/MP4 export, and an interactive in-chat viewer.</sub>
-      <br><br>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top" align="center">
-      <a href="https://github.com/ThalesMMS/Turing-Lab"><img src="assets/project-gallery/jflutter.jpg" width="100%" alt="Turing-Lab finite-state automata simulator"></a>
-      <br>
-      <a href="https://github.com/ThalesMMS/Turing-Lab"><b>Turing-Lab</b></a>
-      <br>
-      <sub>Touch-first Flutter reimplementation of JFLAP — automata, grammars, pushdown automata, Turing machines, and regexes on mobile, desktop, and web.</sub>
-      <br><br>
-    </td>
     <td width="50%" valign="top" align="center">
       <a href="https://github.com/ThalesMMS/DICOM-Swift"><img src="assets/project-gallery/dicom-swift.jpg" width="100%" alt="DICOM-Swift CT image viewer"></a>
       <br>
       <a href="https://github.com/ThalesMMS/DICOM-Swift"><b>DICOM-Swift</b></a>
       <br>
-      <sub>Pure Swift DICOM decoder toolkit for iOS/macOS — metadata and pixel parsing, window/level and export pipelines, SwiftUI viewer components, and CLI tools.</sub>
+      <sub>Pure Swift DICOM decoder toolkit for iOS/macOS — metadata and pixel parsing, window/level and export pipelines.</sub>
       <br><br>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top" align="center">
       <a href="https://github.com/ThalesMMS/MTK"><img src="assets/project-gallery/mtk.jpg" width="100%" alt="MTK medical volume rendering on iPhone"></a>
       <br>
       <a href="https://github.com/ThalesMMS/MTK"><b>MTK — Metal Toolkit</b></a>
       <br>
-      <sub>Swift Package for Metal-native medical volume rendering — GPU-resident volume, MPR, projections, transfer functions, and reusable SwiftUI clinical viewports.</sub>
-      <br><br>
-    </td>
-    <td width="50%" valign="top" align="center">
-      <a href="https://github.com/ThalesMMS/BIONG"><img src="assets/project-gallery/biong.jpg" width="100%" alt="BIONG neuro-modular organism simulation"></a>
-      <br>
-      <a href="https://github.com/ThalesMMS/BIONG"><b>BIONG</b></a>
-      <br>
-      <sub>Biologically Inspired Organism, Not a Game — a simulator where modular cortical networks drive survival behavior.</sub>
+      <sub>Swift Package for Metal-native medical volume rendering — GPU-resident volume, MPR, projections and transfer functions.</sub>
       <br><br>
     </td>
   </tr>
@@ -146,15 +128,33 @@ I'm a physician and computer science undergraduate exploring how software engine
       <br>
       <a href="https://github.com/ThalesMMS/RadRef"><b>RadRef</b></a>
       <br>
-      <sub>Modular radiology reference app — Fleischner 2017, Lung-RADS v2022, Brock/PanCan, Bosniak v2019, AO/OTA fractures, and AAST trauma scales.</sub>
+      <sub>Modular collaborative radiology reference app.</sub>
       <br><br>
     </td>
     <td width="50%" valign="top" align="center">
-      <a href="https://github.com/ThalesMMS/Go-PACS"><img src="assets/project-gallery/go-pacs.jpg" width="100%" alt="Go-PACS DICOM query interface"></a>
+      <a href="https://github.com/ThalesMMS/Podcast-Intelligence"><img src="assets/project-gallery/podcast-intelligence.jpg" width="100%" alt="Podcast Intelligence episode library and grounded chat"></a>
       <br>
-      <a href="https://github.com/ThalesMMS/Go-PACS"><b>Go-PACS</b></a>
+      <a href="https://github.com/ThalesMMS/Podcast-Intelligence"><b>Podcast Intelligence</b></a>
       <br>
-      <sub>Native Go/Fyne PACS desktop app built on dicom-go — archive import, remote node management, C-ECHO/C-FIND/C-MOVE/C-STORE, and a built-in receiver.</sub>
+      <sub>Podcast and audio platform: transcription, time-aware summaries, and grounded Q&amp;A with citations.</sub>
+      <br><br>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/ThalesMMS/Turing-Lab"><img src="assets/project-gallery/jflutter.jpg" width="100%" alt="Turing-Lab finite-state automata simulator"></a>
+      <br>
+      <a href="https://github.com/ThalesMMS/Turing-Lab"><b>Turing-Lab</b></a>
+      <br>
+      <sub>Touch-first cross-platform reimplementation of JFLAP: automata, grammars, pushdown automata, Turing machines, and regexes.</sub>
+      <br><br>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <a href="https://github.com/ThalesMMS/BIONG"><img src="assets/project-gallery/biong.jpg" width="100%" alt="BIONG neuro-modular organism simulation"></a>
+      <br>
+      <a href="https://github.com/ThalesMMS/BIONG"><b>BIONG</b></a>
+      <br>
+      <sub>Biologically Inspired Organism, Not a Game: a simulator where modular cortical networks drive survival behavior.</sub>
       <br><br>
     </td>
   </tr>
@@ -164,7 +164,7 @@ I'm a physician and computer science undergraduate exploring how software engine
       <br>
       <a href="https://github.com/ThalesMMS/MacPGP-app"><b>MacPGP</b></a>
       <br>
-      <sub>OpenPGP for macOS — key management, file/message encryption, signing, Keychain passphrase storage, and Finder/Quick Look extensions.</sub>
+      <sub>OpenPGP for macOS: key management, file/message encryption, signing and Keychain passphrase storage.</sub>
       <br><br>
     </td>
     <td width="50%" valign="top" align="center">
@@ -172,7 +172,7 @@ I'm a physician and computer science undergraduate exploring how software engine
       <br>
       <b>Video Subtitler</b>
       <br>
-      <sub>Local video dubbing app: Whisper transcription, LLM translation, and synced Piper TTS remuxed into the video.</sub>
+      <sub>Local video dubbing app: transcription, translation, and dubbing.</sub>
       <br><br>
     </td>
   </tr>
@@ -184,12 +184,12 @@ I'm a physician and computer science undergraduate exploring how software engine
 
 ### Medical Imaging & Radiology
 
+- [**Go-PACS**](https://github.com/ThalesMMS/Go-PACS) — Native Go/Fyne PACS desktop app built on dicom-go — archive import, remote node management, C-ECHO/C-FIND/C-MOVE/C-STORE, and a built-in receiver.
 - [**dicom-go**](https://github.com/ThalesMMS/dicom-go) — Pure Go DICOM module: read/write, DICOM JSON conversion, pixel data extraction, dictionaries and transfer syntaxes, and minimal C-ECHO/C-STORE workflows.
 - [**rusty-dicom-node**](https://github.com/ThalesMMS/rusty-dicom-node) — Terminal-first Rust DICOM node client built on dicom-rs: remote node configuration, C-FIND/C-MOVE/C-STORE workflows, SQLite local indexing, recursive/ZIP import, and a ratatui TUI.
 - **PACS-Natural-Language-Query** — CLI toolkit that translates natural language or SQL into validated DICOM C-FIND queries, with dry-run/explain output, result streaming, and PHI-aware logging.
 - [**Dicom-Tools**](https://github.com/ThalesMMS/Dicom-Tools) — Multi-language DICOM workbench comparing DCMTK, GDCM, ITK/VTK, dicom-rs, fo-dicom, dcm4che, Cornerstone3D, pydicom/pynetdicom, and related backends through a shared UI.
 - [**dicompressor**](https://github.com/ThalesMMS/dicompressor) — Native C++20 batch DICOM transcoder for HTJ2K/JPEG 2000 lossless workflows, built with DCMTK and OpenJPH.
-- [**TotalSegmentator OsiriX/Horos Plugin**](https://github.com/ThalesMMS/TotalSegmentator-OsiriX-Horos-Plugin) — Runs TotalSegmentator on the active CT/MR series in an isolated Python environment and imports RT-Struct overlays back into the host viewer.
 - [**OsiriX-Backup-Plugin**](https://github.com/ThalesMMS/OsiriX-Backup-Plugin) — Sends DICOM studies to remote PACS/storage targets with queueing, retry, SHA-256 integrity manifests, and duplicate avoidance.
 - [**orthanc-tools**](https://github.com/ThalesMMS/orthanc-tools) — Python operations toolkit for Orthanc: Docker/Ubuntu deployment, REST health checks, remote sync, PACS mirroring, backfill, and backup workflows.
 - **Orthanc for QNAP** — Custom `.qpkg` packaging of the Orthanc server for QNAP NAS devices.
