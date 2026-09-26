@@ -18,7 +18,7 @@ I'm a physician and computer science undergraduate exploring how software engine
 **Main interests:**
 
 - Local-first imaging platforms and DICOM viewers (2D/MPR/volumetric rendering, DIMSE/DICOMweb)
-- Generative AI in medicine and AI-assisted radiological decision-making (LLMs/agents, local inference, RAG/finetuning)
+- AI in medicine and AI-assisted clinical decision-making (Machine Learning, LLMs/agents, local inference, RAG/finetuning)
 - Infrastructure for healthcare systems (PACS, NAS, EHR, and other systems)
 - AI-assisted software engineering and developer tooling
 - Full-stack development tailored to clinical workflows
