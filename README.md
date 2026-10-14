@@ -32,7 +32,7 @@ I'm a physician and computer science undergraduate exploring how software engine
     <td width="50%" valign="middle" align="center">
       <img src="assets/project-gallery/isis-dicom-viewer.jpg" width="100%" alt="Isis DICOM Viewer showing multiplanar CT reconstruction">
       <br>
-      <b>IsiX DICOM Viewer</b>
+      <a href="https://github.com/ThalesMMS/IsiX-DICOM-Viewer-macOS"><b>IsiX DICOM Viewer</b></a>
       <br>
       <sub>Cross-platform DICOM viewer family — for all Apple devices, Windows and Android</sub>
       <br><br>
