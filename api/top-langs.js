@@ -6,10 +6,99 @@ const getColors=o=>{o=o||{};const d=THEMES.default,t=THEMES[o.theme]||d,bb="bord
 const fmtB=b=>{b=+b;if(!Number.isFinite(b)||b<0)throw new Error("Bytes must be a non-negative number");if(!b)return"0 B";const u=["B","KB","MB","GB","TB","PB","EB"],i=Math.floor(Math.log(b)/Math.log(1024));if(i>=u.length)throw new Error("Bytes is too large");return`${(b/1024**i).toFixed(1)} ${u[i]}`};
 const DEF_W=300,MIN_W=280,PAD=25,BASE_H=90,MAX_L=20,DEF_L=6,calcH=n=>BASE_H+Math.round(n/2)*25;
 const tokens=()=>[process.env.GITHUB_TOKEN,process.env.GH_TOKEN,process.env.PAT,...Object.keys(process.env).filter(k=>/^PAT_\d+$/.test(k)).sort((a,b)=>+a.split("_")[1]-b.split("_")[1]).map(k=>process.env[k])].filter(Boolean).filter((t,i,a)=>a.indexOf(t)===i);
-const GH_Q=`query userInfo($login:String!){user(login:$login){repositories(ownerAffiliations:OWNER,isFork:false,first:100){nodes{name languages(first:10,orderBy:{field:SIZE,direction:DESC}){edges{size node{color name}}}}}}}`;
-const gh=async(l,t)=>{const r=await fetch("https://api.github.com/graphql",{method:"POST",headers:{"Content-Type":"application/json",Authorization:`token ${t}`},body:JSON.stringify({query:GH_Q,variables:{login:l}})});let d={};try{d=await r.json()}catch{};return{status:r.status,data:d}};
-const fetchTop=async(u,ex=[],sw=1,cw=0)=>{if(!u)throw new MissingParamError(["username"]);const tks=tokens();if(!tks.length)throw new CustomError("No GitHub API tokens found",CustomError.NO_TOKENS);let res;for(const t of tks){const r=await gh(u,t),e=r.data?.errors,m=r.data?.message||e?.[0]?.message||"";if(r.status===401||/bad credentials|account was suspended/i.test(m)||e?.[0]?.type==="RATE_LIMITED"||/rate limit/i.test(m))continue;res=r;break}if(!res)throw new CustomError("Downtime due to GitHub API rate limiting",CustomError.MAX_RETRY);if(res.data?.errors){const e=res.data.errors[0]||{};if(e.type==="NOT_FOUND")throw new CustomError(e.message||"Could not fetch user.",CustomError.USER_NOT_FOUND);throw new CustomError(e.message?String(e.message).slice(0,90):"Something went wrong",CustomError.GRAPHQL_ERROR)}const envEx=(process.env.EXCLUDE_REPO||"").split(",").map(s=>s.trim()).filter(Boolean),excl=new Set([...ex,...envEx]),nodes=res.data?.data?.user?.repositories?.nodes||[],acc={};for(const r of nodes){if(!r||excl.has(r.name))continue;const seen=new Set();for(const e of r.languages?.edges||[]){const n=e?.node?.name;if(!n)continue;acc[n]??={name:n,color:e.node.color||"",size:0,count:0};acc[n].size+=+e.size||0;if(!seen.has(n)){acc[n].count++;seen.add(n)}}}for(const k in acc)acc[k].size=acc[k].size**(+sw||1)*acc[k].count**(+cw||0);return acc};
+const GH_Q = `
+  query userInfo($login: String!, $privacy: RepositoryPrivacy) {
+    user(login: $login) {
+      repositories(ownerAffiliations: OWNER, isFork: false, first: 100, privacy: $privacy) {
+        nodes {
+          name
+          languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
+            edges { size node { color name } }
+          }
+        }
+      }
+    }
+  }
+`;
+
+async function gh(login, token, privacy) {
+  const response = await fetch("https://api.github.com/graphql", {
+    method: "POST",
+    headers: { "Content-Type": "application/json", Authorization: `token ${token}` },
+    body: JSON.stringify({ query: GH_Q, variables: { login, privacy } }),
+  });
+  const data = await response.json().catch(() => ({}));
+  return { status: response.status, data };
+}
+
+async function fetchTop(username, excluded = [], sizeWeight = 1, countWeight = 0, privacy) {
+  if (!username) throw new MissingParamError(["username"]);
+  const configuredTokens = tokens();
+  if (!configuredTokens.length) {
+    throw new CustomError("No GitHub API tokens found", CustomError.NO_TOKENS);
+  }
+
+  let result;
+  for (const token of configuredTokens) {
+    const response = await gh(username, token, privacy);
+    const error = response.data?.errors?.[0];
+    const message = response.data?.message || error?.message || "";
+    if (response.status === 401 || response.status === 429 || error?.type === "RATE_LIMITED" ||
+        /bad credentials|account was suspended|rate limit/i.test(message)) continue;
+    result = response;
+    break;
+  }
+
+  if (!result) {
+    throw new CustomError("Downtime due to GitHub API rate limiting", CustomError.MAX_RETRY);
+  }
+  if (result.data?.errors?.length) {
+    const error = result.data.errors[0];
+    if (error.type === "NOT_FOUND") {
+      throw new CustomError(error.message || "Could not fetch user.", CustomError.USER_NOT_FOUND);
+    }
+    throw new CustomError(error.message?.slice(0, 90) || "Something went wrong", CustomError.GRAPHQL_ERROR);
+  }
+  const repositories = result.data?.data?.user?.repositories?.nodes;
+  if (result.status !== 200 || !Array.isArray(repositories)) {
+    throw new CustomError(`Unable to fetch GitHub repositories (HTTP ${result.status})`, CustomError.GITHUB_REST_API_ERROR);
+  }
+
+  const exclusions = new Set([...excluded, ...arr(process.env.EXCLUDE_REPO)]);
+  const languages = Object.create(null);
+  for (const repository of repositories) {
+    if (!repository || exclusions.has(repository.name)) continue;
+    const seen = new Set();
+    for (const edge of repository.languages?.edges || []) {
+      const name = edge?.node?.name;
+      if (!name) continue;
+      const language = languages[name] ??= { name, color: edge.node.color || "", size: 0, count: 0 };
+      language.size += +edge.size || 0;
+      if (!seen.has(name)) {
+        language.count++;
+        seen.add(name);
+      }
+    }
+  }
+  for (const language of Object.values(languages)) {
+    language.size = language.size ** (+sizeWeight || 1) * language.count ** (+countWeight || 0);
+  }
+  return languages;
+}
 const trim=(top,lc,hide)=>{const hs=new Set((hide||[]).map(s=>s.toLowerCase().trim())),n=clamp(+lc||DEF_L,1,MAX_L),ls=Object.values(top).sort((a,b)=>b.size-a.size).filter(l=>!hs.has(String(l.name).toLowerCase().trim())).slice(0,n);return{langs:ls,total:ls.reduce((s,l)=>s+l.size,0)}};
 const renderErr=({message:m,secondaryMessage:s="",renderOptions:ro={}})=>{const{titleColor:tc,textColor:xc,bgColor:bg,borderColor:bc}=getColors(ro),fill=Array.isArray(bg)?`#${bg[1]}`:bg;return`<svg width="576.5" height="120" viewBox="0 0 576.5 120" fill="${fill}" xmlns="http://www.w3.org/2000/svg"><style>.t{font:600 16px 'Segoe UI',Ubuntu,Sans-Serif;fill:${tc}}.s{font:600 12px 'Segoe UI',Ubuntu,Sans-Serif;fill:${xc}}.g{fill:#858585}</style><rect x=".5" y=".5" width="575.5" height="99%" rx="4.5" fill="${fill}" stroke="${bc}"/><text x="25" y="45" class="t">Something went wrong!</text><text x="25" y="55" class="s"><tspan x="25" dy="18">${enc(m)}</tspan><tspan x="25" dy="18" class="g">${enc(s)}</tspan></text></svg>`};
 const render=(top,o={})=>{const{langs:ls,total:tot}=trim(top,o.langs_count,o.hide);let w=o.card_width?+o.card_width:DEF_W;w=isNaN(w)?DEF_W:Math.max(MIN_W,w);const{titleColor:tc,textColor:xc,bgColor:bg,borderColor:bc}=getColors(o),title=enc(o.custom_title??="Most Used Languages"),ht=!!o.hide_title,hb=!!o.hide_border,hp=!!o.hide_progress,da=!!o.disable_animations,fmt=o.stats_format==="bytes"?"bytes":"pct";let h,layout;if(!ls.length){h=BASE_H;layout=`<text x="0" y="11" class="stat bold" fill="${xc}">No languages data.</text>`}else{h=calcH(ls.length)+(hp?-25:0);const ow=w-50;let off=0;const bar=hp?"":`<mask id="rect-mask"><rect x="0" y="0" width="${ow}" height="8" fill="white" rx="5"/></mask>${ls.map(l=>{const raw=+((l.size/tot)*ow).toFixed(2),seg=raw<10?raw+10:raw,x=off;off+=raw;return`<rect mask="url(#rect-mask)" x="${x}" y="0" width="${seg}" height="8" fill="${l.color||"#858585"}"/>`}).join("")}`;const lng=ls.reduce((a,b)=>b.name.length>a.name.length?b:a,{name:"",size:0}),gap=Math.max(150,20+(`${lng.name} ${((lng.size/tot)*100).toFixed(2)}%`).length*6),per=ls.length/2,col=[[],[]];ls.forEach((l,i)=>col[Math.floor(i/per)]?.push(l));const ln=(l,i,gi)=>{const v=fmt==="bytes"?fmtB(l.size):`${((l.size/tot)*100).toFixed(2)}%`;return`<g class="stagger" style="animation-delay:${(gi+3)*150}ms" transform="translate(0,${i*25})"><circle cx="5" cy="6" r="5" fill="${l.color||"#858585"}"/><text x="15" y="10" class="lang-name">${enc(l.name)}${hp?"":` ${v}`}</text></g>`};const cs=(a,x,b)=>`<g transform="translate(${x},0)">${a.map((l,i)=>ln(l,i,b+i)).join("")}</g>`;layout=`${bar}<g transform="translate(0,${hp?0:25})">${cs(col[0],0,0)}${cs(col[1],gap,col[0].length)}</g>`}const ch=ht?h-30:h,by=ht?25:55,rr=o.border_radius?+o.border_radius:4.5,grad=Array.isArray(bg)?`<defs><linearGradient id="gradient" gradientTransform="rotate(${bg[0]})" gradientUnits="userSpaceOnUse">${bg.slice(1).map((c,i,a)=>`<stop offset="${a.length===1?0:(i*100)/(a.length-1)}%" stop-color="#${c}"/>`).join("")}</linearGradient></defs>`:"",fill=Array.isArray(bg)?"url(#gradient)":bg;return`<svg width="${w}" height="${ch}" viewBox="0 0 ${w} ${ch}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img"><title></title><desc></desc><style>.header{font:600 18px 'Segoe UI',Ubuntu,Sans-Serif;fill:${tc};animation:f .8s ease-in-out forwards}.stat{font:600 14px 'Segoe UI',Ubuntu,'Helvetica Neue',Sans-Serif;fill:${xc}}.bold{font-weight:700}.lang-name{font:400 11px 'Segoe UI',Ubuntu,Sans-Serif;fill:${xc}}.stagger{opacity:0;animation:f .3s ease-in-out forwards}#rect-mask rect{animation:s 1s ease-in-out forwards}.lang-progress{animation:g .6s ease-in-out forwards}@keyframes s{from{width:0}to{width:calc(100%-100px)}}@keyframes g{from{width:0}to{width:100%}}@keyframes f{from{opacity:0}to{opacity:1}}${da?"*{animation-duration:0s!important;animation-delay:0s!important}":""}</style>${grad}<rect x=".5" y=".5" rx="${rr}" height="99%" stroke="${bc}" width="${w-1}" fill="${fill}" stroke-opacity="${hb?0:1}"/>${ht?"":`<g transform="translate(25,35)"><text x="0" y="0" class="header">${title}</text></g>`}<g transform="translate(0,${by})"><svg x="${PAD}">${layout}</svg></g></svg>`};
 module.exports=async(req,res)=>{const q=req.query||{},o={custom_title:q.custom_title,hide_title:bool(q.hide_title),hide_border:bool(q.hide_border),card_width:q.card_width,title_color:q.title_color,text_color:q.text_color,bg_color:q.bg_color,theme:q.theme,langs_count:q.langs_count,hide:arr(q.hide),border_radius:q.border_radius,border_color:q.border_color,disable_animations:bool(q.disable_animations),hide_progress:bool(q.hide_progress),stats_format:q.stats_format};res.setHeader("Content-Type","image/svg+xml");res.setHeader("Cache-Control",`s-maxage=${CACHE}, stale-while-revalidate=${CACHE}`);try{return res.send(render(await fetchTop(q.username,arr(q.exclude_repo),q.size_weight?+q.size_weight:1,q.count_weight?+q.count_weight:0),o))}catch(e){res.setHeader("Cache-Control","no-cache, no-store, must-revalidate");return res.send(renderErr({message:e instanceof Error?e.message:"An unknown error occurred",secondaryMessage:sec(e),renderOptions:{title_color:q.title_color,text_color:q.text_color,bg_color:q.bg_color,border_color:q.border_color,theme:q.theme}}))}};
+
+module.exports.generatePublicCard = async (username) => {
+  const languages = await fetchTop(username, [], 1, 0, "PUBLIC");
+  if (!Object.values(languages).some(({ size }) => size > 0)) {
+    throw new Error(`No public language data found for ${username}`);
+  }
+  return render(languages, {
+    langs_count: 6,
+    theme: "tokyonight",
+    card_width: 301,
+    disable_animations: true,
+  });
+};
